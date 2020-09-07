@@ -1,0 +1,664 @@
+---
+title: 'Minería de datos: PEC1'
+author: "Autor: Nombre estudiante"
+date: "Marzo 2020"
+output:
+  html_document:
+    highlight: default
+    number_sections: yes
+    theme: cosmo
+    toc: yes
+    toc_depth: 2
+    includes:
+      in_header: 75.584-PEC-header.html
+  pdf_document:
+    highlight: zenburn
+    toc: yes
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+******
+# Introducción
+******
+## Presentación
+Esta prueba de evaluación continuada cubre el módulo 1,2 y 8 del programa de la asignatura.  
+
+## Competencias
+Las competencias que se trabajan en esta prueba son:
+
+* Uso y aplicación de las TIC en el ámbito académico y profesional
+* Capacidad para innovar y generar nuevas ideas.
+* Capacidad para evaluar soluciones tecnológicas y elaborar propuestas de proyectos teniendo en cuenta los recursos, las alternativas disponibles y las condiciones de mercado.
+* Conocer las tecnologías de comunicaciones actuales y emergentes, así como saberlas aplicar convenientemente para diseñar y desarrollar soluciones basadas en sistemas y tecnologías de la información.
+* Aplicación de las técnicas específicas de ingeniería del software en las diferentes etapas del ciclo de vida de un proyecto.
+* Capacidad para aplicar las técnicas específicas de tratamiento, almacenamiento y administración de datos.
+* Capacidad para proponer y evaluar diferentes alternativas tecnológicas para resolver un problema concreto.
+* Capacidad de utilizar un lenguaje de programación.  
+* Capacidad para desarrollar en una herramienta IDE.  
+* Capacidad de plantear un proyecto de minería de datos.  
+
+## Objetivos
+* Asimilar correctamente el módulo 1 y 2.
+*	Qué es y qué no es MD.
+*	Ciclo de vida de los proyectos de MD.
+*	Diferentes tipologías de MD.
+* Conocer las técnicas propias de una fase de preparación de datos y objetivos a alcanzar.  
+
+## Descripción de la PEC a realizar
+La prueba está estructurada en 1 ejercicio teórico/práctico y 1 ejercicio práctico que pide que se desarrolle la fase de preparación en un juego de datos.  
+Deben responderse todos los ejercicios para poder superar la PEC.  
+
+## Recursos
+Para realizar esta práctica recomendamos la lectura de los siguientes documentos:  
+
+* Módulo 1, 2 y 8 del material didáctico.  
+* RStudio Cheat Sheet: Disponible en el aula Laboratorio de Minería de datos.  
+* R Base Cheat Sheet: Disponible en el aula Laboratorio de Minería de datos.  
+
+## Criterios de evaluación
+**Ejercicios teóricos**  
+Todos los ejercicios deben ser presentados de forma razonada y clara, especificando todos y cada uno de los pasos que se hayan llevado a cabo para su resolución. No se aceptará ninguna respuesta que no esté claramente justificada.  
+
+**Ejercicios prácticos**  
+Para todas las PEC es necesario documentar en cada apartado del ejercicio práctico qué se ha hecho y cómo se ha hecho.  
+
+## Formato y fecha de entrega
+El formato de entrega es: usernameestudiant-PECn.html y rmd  
+Fecha de Entrega: 01/04/2020  
+Se debe entregar la PEC en el buzón de entregas del aula  
+
+
+## Nota: Propiedad intelectual 
+
+> A menudo es inevitable, al producir una obra multimedia, hacer uso de recursos creados por terceras personas. Es por lo tanto comprensible hacerlo en el marco de una práctica de los estudios de Informática, Multimedia y Telecomunicación de la UOC, siempre y cuando esto se documente claramente y no suponga plagio en la práctica. 
+
+> Por lo tanto, al presentar una práctica que haga uso de recursos ajenos, se debe presentar junto con ella un documento en qué se detallen todos ellos, especificando el nombre de cada recurso, su autor, el lugar dónde se obtuvo y su estatus legal: si la obra está protegida por el copyright o se acoge a alguna otra licencia de uso (Creative Commons, licencia GNU, GPL ...). 
+El estudiante deberá asegurarse de que la licencia  no impide específicamente su uso en el marco de la práctica. En caso de no encontrar la información correspondiente tendrá que asumir que la obra está protegida por copyright. 
+
+> Deberéis, además, adjuntar los ficheros originales cuando las obras utilizadas sean digitales, y su código fuente si corresponde.  
+
+******
+# Enunciado  
+******
+Como ejemplo, trabajaremos con el conjunto de datos "Titanic" que recoge datos sobre el famoso crucero y sobre el que es fácil realizar tareas de clasificación predictiva sobre la variable "Survived".   
+
+De momento dejaremos para las siguientes prácticas el estudio de algoritmos predictivos y nos centraremos por ahora en el estudio de las variables de una muestra de datos, es decir, haremos un trabajo descriptivo del mismo. 
+
+Las actividades que llevaremos a cabo en esta práctica suelen enmarcarse en las fases iniciales de un proyecto de minería de datos y consisten en la selección de características o variables y la preparación del los  datos para posteriormente ser consumido por un algoritmo.
+
+Las técnicas que trabajaremos son las siguientes:  
+
+1. Normalización  
+2. Discretización  
+3. Gestión de valores nulos  
+4. Estudio de correlaciones  
+5. Reducción de la dimensionalidad
+6. Análisis visual del conjunto de datos  
+
+******
+# Ejemplo de estudio visual con el juego de datos Titanic
+******
+
+## Procesos de limpieza del conjunto de datos
+
+Primer contacto con el conjunto de datos, visualizamos su estructura.  
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Cargamos los paquetes R que vamos a usar
+library(ggplot2)
+library(dplyr)
+
+# Cargamos el fichero de datos
+totalData <- read.csv('titanic.csv',stringsAsFactors = FALSE)
+filas=dim(totalData)[1]
+
+# Verificamos la estructura del conjunto de datos
+str(totalData)
+```
+Descripción de las variables contenidas en el fichero:
+
+name
+    a string with the name of the passenger.
+    
+gender
+    a factor with levels male and female.
+    
+age
+    a numeric value with the persons age on the day of the sinking. The age of babies (under 12 months) is given as a fraction of one year (1/month).
+    
+class
+    a factor specifying the class for passengers or the type of service aboard for crew members.
+    
+embarked
+    a factor with the persons place of of embarkment.
+    
+country
+    a factor with the persons home country.
+    
+ticketno
+    a numeric value specifying the persons ticket number (NA for crew members).
+    
+fare
+    a numeric value with the ticket price (NA for crew members, musicians and employees of the shipyard company).
+    
+sibsp
+    an ordered factor specifying the number if siblings/spouses aboard; adopted from Vanderbild data set.
+    
+parch
+    an ordered factor specifying the number of parents/children aboard; adopted from Vanderbild data set.
+    
+survived
+    a factor with two levels (no and yes) specifying whether the person has survived the sinking.
+    
+
+Mostramos estadísticas bàsicas y después trabajamos los atributos con valores vacíos.  
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+#Estadísticas básicas
+summary(totalData)
+
+# Estadísticas de valores vacíos
+colSums(is.na(totalData))
+colSums(totalData=="")
+
+# Tomamos valor "Desconocido" para los valores vacíos de la variable "country"
+totalData$Embarked[totalData$country==""]="Desconocido"
+
+# Tomamos la media para valores vacíos de la variable "Age"
+totalData$Age[is.na(totalData$age)] <- mean(totalData$age,na.rm=T)
+```
+
+Discretizamos cuando tiene sentido y en función de cada variable.  
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# ¿Con qué variables tendría sentido un proceso de discretización?
+apply(totalData,2, function(x) length(unique(x)))
+
+# Discretizamos las variables con pocas clases
+cols<-c("survived","class","gender","embarked")
+for (i in cols){
+  totalData[,i] <- as.factor(totalData[,i])
+}
+
+# Después de los cambios, analizamos la nueva estructura del conjunto de datos
+str(totalData)
+```
+
+
+## Procesos de análisis del conjunto de datos
+
+Nos proponemos analizar las relaciones entre las diferentes variables del conjunto de datos para ver si se relacionan y como.
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Visualizamos la relación entre las variables "sex" y "survival":
+ggplot(data=totalData[1:filas,],aes(x=gender,fill=survived))+geom_bar()
+
+# Otro punto de vista. Survival como función de Embarked:
+ggplot(data = totalData[1:filas,],aes(x=embarked,fill=survived))+geom_bar(position="fill")+ylab("Frecuencia")
+
+```
+
+En la primera gráfica podemos observar fácilmente la cantidad de mujeres que viajaban respecto hombres y observar los que no sobrevivieron. Numéricamente el número de hombres y mujeres supervivientes es similar.
+
+En la segunda gráfica de forma porcentual observamos los puertos de embarque y los porcentajes de supervivencia en función del puerto. Se podría trabajar el puerto C (Cherburgo) para ver de explicar la diferencia en los datos. Quizás porcentualmente embarcaron más mujeres o niños... O gente de primera clase?
+
+Obtenemos ahora una matriz de porcentajes de frecuencia.
+Vemos, por ejemplo que la probabilidad de sobrevivir si se embarcó en "C" es de un 56.45%
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+t<-table(totalData[1:filas,]$embarked,totalData[1:filas,]$survived)
+for (i in 1:dim(t)[1]){
+    t[i,]<-t[i,]/sum(t[i,])*100
+}
+t
+```
+
+Veamos ahora como en un mismo gráfico de frecuencias podemos trabajar con 3 variables: Embarked, Survived y Pclass.  
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Ahora, podemos dividir el gráfico de Embarked por Pclass:
+ggplot(data = totalData[1:filas,],aes(x=embarked,fill=survived))+geom_bar(position="fill")+facet_wrap(~class)
+```
+
+Aquí ya podemos extraer mucha información. Como propuesta de mejora se podría hacer un gráfico similar trabajando solo la clase. Habría que unificar toda la tripulación a una única categoría.
+
+Comparemos ahora dos gráficos de frecuencias: Survived-SibSp y Survived-Parch
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Survivial como función de SibSp y Parch
+ggplot(data = totalData[1:filas,],aes(x=sibsp,fill=survived))+geom_bar()
+ggplot(data = totalData[1:filas,],aes(x=parch,fill=survived))+geom_bar()
+# Vemos como las forma de estos dos gráficos es similar. Este hecho nos puede indicar presencia de correlaciones altas.
+```
+
+Veamos un ejemplo de construcción de una variable nueva: Tamaño de familia
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+
+# Construimos un atributo nuevo: family size.
+totalData$FamilySize <- totalData$sibsp + totalData$parch +1;
+totalData1<-totalData[1:filas,]
+ggplot(data = totalData1[!is.na(totalData[1:filas,]$FamilySize),],aes(x=FamilySize,fill=survived))+geom_histogram(binwidth =1,position="fill")+ylab("Frecuencia")
+
+  
+```
+
+Veamos ahora dos gráficos que nos compara los atributos Age y Survived.  
+Observamos como el parámetro position="fill" nos da la proporción acumulada de un atributo dentro de otro
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Survival como función de age:
+ggplot(data = totalData1[!(is.na(totalData[1:filas,]$age)),],aes(x=age,fill=survived))+geom_histogram(binwidth =3)
+ggplot(data = totalData1[!is.na(totalData[1:filas,]$age),],aes(x=age,fill=survived))+geom_histogram(binwidth = 3,position="fill")+ylab("Frecuencia")
+```
+
+
+
+******
+# Ejercicios
+******
+
+## Ejercicio 1: 
+
+Estudia los tres casos siguientes y contesta, de forma razonada la pregunta que se realiza:
+
+* Disponemos de un conjunto de variables referentes a vehículos, tales como la marca, modelo, año de matriculación, etc. También se dispone del precio al que se vendieron. Al poner a la venta a un nuevo vehículo, se dispone de las variables que lo describen, pero se desconoce el precio. ¿Qué tipo de algoritmo se debería aplicar para predecir de forma automática el precio?
+
+* En un almacén de naranjas se tiene una máquina, que de forma automática obtiene un conjunto de variables de cada naranja, como su tamaño, acidez, grado maduración, etc. Si se desea estudiar las naranjas por tipos, según las variables obtenidas, ¿qué tipo de algoritmo es el más adecuado?
+
+* Un servicio de música por internet dispone de los historiales de audición de sus clientes: Qué canciones y qué grupos eligen los clientes a lo largo del tiempo de sus escuchas. La empresa desea crear un sistema que proponga la siguiente canción y grupo en función de la canción que se ha escuchado antes. ¿Qué tipo de algoritmo es el más adecuado?
+
+### Respuesta 1:
+* Nos encontramos ante un problema de aprendizaje supervisado, en concreto una tarea de predicción. Los datos mencionados de coches anteriores pueden ser utilizados para entrenar, validar y probar un modelo que nos sirva para determinar el precio del nuevo vehículo. En estos casos una red neuronal suele ser la mejor opción. La función de activación de la neurona de la última capa en ningún caso deberá ser una función sigmoid o similar. 
+
+  \newline La capa de salida tendría una única neurona que se correspondería a la variable del precio, mientras que las neuronas de las capas de entrada corresponderían a las variables tipo marca, modelo, etc.
+  
+  \newline Si bien la red neuronal es la mejor elección para este caso, sería interesante implementar paralelamente un modelo de regresión lineal multivariable y otro de regresión polinomial. La razón de probar estos modelos es que son más fáciles de implementar y si rindiesen bien serían mas fáciles de presentar a un hipotético cliente.
+
+* Se trata de clasificar naranjas de las cuales no sabemos su tipo pero si numerosos datos. En este caso debemos optar por un algoritmo de clustering. Estos algoritmos nos permiten realizar agrupaciones en función de los datos. Puesto que no sabemos cuantos tipos de naranjas hay, ni a qué tipo corresponde cada naranja, Kmeans es la mejor elección. Dicho algoritmo permite agrupar distintos elementos siempre que dichas clases sean iguales o inferiores en número a los elementos. 
+
+  \newline A la hora de implementarlo, es conveniente ir aumentando el número de clases en cada ejecución. La que mejor rendimiento de nos dé, nos dará los grupos a la vez que el número de clases. También existen diversamos métodos estadísticos para determinar el número de clusters(núcleos o grupos) a priori.
+
+  \newline El método kmeans solo es útil si conocemos o intuimos a priori el numero de clases, o al menos, nos hacemos una idea aproximada. En caso de que no sea así, que teniendo en cuenta que estamos hablando de naranjas, lo más probable es que sí, existen métodos aglomeradores que nos serviriían para realizar la tarea de clustering.
+
+* Entendiendo los grupos de música y las canciones, la mejor opción es utilizar reglas de asociación. Dichas reglas nos permitirian realizar asociaciones entre canciones y grupos con el finde sugerir una nueva, es lógico pensar que si te gustan ún numero de canciones con unas características determinadas, otra canción con un porcentaje alto de asociación también lo hará. 
+
+  \newline Es habitual en las aplicaciones de música en streaming utilizar dicho algoritmo para asociar usuarios. Por ejemplo, Spotify asocia usuarios con los mismos gustos y les sugiere a estos canciones que no han escuchado pero que otro del mismo grupo sí. Lógicamente el algoritmo de esta aplicación es privado y de una complejidad inmensa pero puede afirmarse a nivel divulgaivo que es viable que esté desarrollado con reglas de asocicación.
+
+Fuentes de la pregunta 1: 
+
+* Python Machine Learning. Sebastian Rachka, Vahid Mirjalili. Ed. Marcombo.
+* Módulo 2 de la asignatura.
+                          
+Fuentes de la pregunta 2: 
+
+* https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68
+* https://www.kdnuggets.com/2019/10/right-clustering-algorithm.html
+* https://stats.stackexchange.com/questions/56500/what-are-the-main-differences-between-k-means-and-k-nearest-neighbours
+* https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/
+* Módulo 2 de la asignatura.
+* Módulo 3 de la asignatura.
+
+
+
+Fuentes de la pregunta 3: 
+
+* http://ismir2018.ircam.fr/doc/pdfs/268_Paper.pdf
+* https://www.xataka.com/espaciolumia/asi-funcionan-los-algoritmos-que-saben-que-musica-te-gusta-antes-que-tu
+* https://es.wikipedia.org/wiki/Reglas_de_asociaci%C3%B3n
+* Módulo 2 de la asignatura.
+
+
+## Ejercicio 2:  
+A partir del conjunto de datos disponible en el siguiente enlace http://archive.ics.uci.edu/ml/datasets/Adult , realiza un estudio tomando como propuesta inicial al que se ha realizado con el conjunto de datos "Titanic". Amplia la propuesta generando nuevos indicadores o solucionando otros problemas expuestos en el módulo 2. Explica el proceso que has seguido, qué conocimiento obtienes de los datos, qué objetivo te has fijado y detalla los pasos, técnicas usadas y los problemas resueltos.
+
+Nota: Si lo deseas puedes utilizar otro conjunto de datos propio o de algún repositorio open data siempre que sea similar en diversidad de tipos de variables al propuesto. 
+
+### Respuesta 2:
+
+#### Procesos de limpieza del conjunto de datos.
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Cargamos el juego de datos
+datosAdult <- read.csv('http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data',stringsAsFactors = FALSE, header = FALSE)
+rows=dim(datosAdult)[1]
+
+# Nombres de los atributos
+names(datosAdult) <- c("age","workclass","fnlwgt","education","education-num","marital-status","occupation","relationship","race","sex","capital-gain","capital-loss","hour-per-week","native-country","income")
+
+```
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Redacta aquí el código R para el estudio del juego de datos Adult
+#Verificamos la estructura del fichero. Observamos que todos los valores tipo string empiezan con un espacio en blanco.
+str(datosAdult)
+```
+Descripción de las variables contenidas en el fichero:
+
+* age:
+    a integer with the age of the adults.
+    
+* workclass:
+    a string with the workclass of the adults.
+    
+* fnlwgt:
+    The weights on the CPS files are controlled to independent estimates of the civilian noninstitutional population of the US. These are prepared monthly for us by Population Division here at the Census Bureau. 
+    
+* education:
+    a string wich indicates the education level of the people.
+    
+* education-num:
+    a integer with the numbers of years studied per person.
+    
+* marital-status:
+    a factor with marital status of the people.
+    
+* ocupation:
+    a string with the job of the adults.
+    
+* relationship:
+    a string which indicates the  civil status.
+    
+* race:
+    the race of the adults.
+    
+* sex:
+    the sex of the adults.
+    
+* capital-gain:
+    the amount of money earned by each adult.
+  
+* capital-loss:
+    the amount of money lost by each adult.
+    
+* hour-per-week:
+    hours spent per week.
+  
+* native-county:
+    country where the adults have born.
+
+* income:
+    amount of money estimated.
+    
+Fuente:  https://www.kaggle.com/uciml/adult-census-income/discussion/32698    
+ 
+Previsualización del csv.
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+head(datosAdult)
+```
+Mostramos estadísticas bàsicas y después trabajamos los atributos con valores vacíos.  
+
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+#Estadísticas básicas
+summary(datosAdult)
+```
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Estadísticas de valores vacíos (na)
+colSums(is.na(datosAdult))
+```
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Estadísticas de valores vacíos
+colSums(datosAdult==" ")
+```
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Estadísticas de valores vacíos
+colSums(datosAdult==" ?")# Esto lo descubrí imprimiendo el dataframe. El print no está en el notebook porque ocupa demasiado.
+```
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Definimos como "Unknown" las variables con valor "?"
+datosAdult$workclass[datosAdult$workclass==" ?"]="Unknown"
+datosAdult$occupation[datosAdult$occupation==" ?"]="Unknown"
+datosAdult$"native-country"[datosAdult$"native-country"==" ?"]="Unknown"
+colSums(datosAdult==" ?")
+
+```
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+#Analizamos qué variables pudieran ser aptas para discretización
+apply(datosAdult,2, function(x) length(unique(x)))
+
+# Discretizamos las variables con pocas clases y education-num
+cols<-c("income","relationship","race","sex", "education-num", "marital-status")
+for (i in cols){
+  datosAdult[,i] <- as.factor(datosAdult[,i])
+  }
+str(datosAdult)
+```
+#### Procesos de análisis del conjunto de datos
+
+Evaluamos las diferentes relaciones entre los elementos de la población. Se han elegido los que se cree que más información pueden aportar. Posteriormente, se creará un nuevo atributo de datos si es necesario y se implementará un modelo predictivo para income.
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+# Visualizamos la relación entre las variables "sex" y "income":
+ggplot(data=datosAdult[1:rows,],aes(x=sex,fill=income))+geom_bar()
+
+# Visualizamos la relación entre las variables "race" y "income":
+ggplot(data=datosAdult[1:rows,],aes(x=race,fill=income))+geom_bar()
+t<-table(datosAdult[1:rows,]$"race",datosAdult[1:rows,]$income)
+for (i in 1:dim(t)[1]){
+    t[i,]<-t[i,]/sum(t[i,])*100
+}
+t
+# Otro punto de vista. Income como función de education-num:
+counts <- table(datosAdult$income, datosAdult$"education-num")
+barplot(counts, main="Adults Distribution by education-num and income",
+  xlab="education-num",col=c("cyan1","darkseagreen2"),
+  legend = rownames(counts))
+
+```
+
+A la hora de analizar los gráficos:
+
+  Observamos que el sexo es relevante para el income. Siendo mucho más igualitaria la proporción en el caso de los hombres.
+  
+  La raza no parece especialmente relevante pero es posible reducir su número clases a 3. Dejando White, black y other.
+  
+  En cuanto a education-num, se puede ver que por debajo de los 9, la una inmensa mayoría de la población muestra un income de <50k. Es por tanto   conveniente colapsar los valores menores que 9 en una única categoría.
+  
+  
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+#Reducción de clases race
+new.levels<-c(1,1,2,1,3)
+datosAdult$race <- factor(new.levels[datosAdult$race])
+#Reducción de clases education-num
+new.levels<-c(1,1,1,1,1,1,1,1,2,3,4,5,6,7,8,9)
+datosAdult$"education-num" <- factor(new.levels[datosAdult$"education-num"])
+```
+El estado civil puede ser relevante de cara a los ingresos, si una persona tiene pareja, y ambas trabajan. Es razonable pensar que su "income" será mayor. Factores come éste, están reflejados en el siguiente gráfico. 
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+par(mar=c(10,4, 1, 2)) # 15 line height for bottom margin
+
+counts <- table(datosAdult$income, datosAdult$"marital-status")
+barplot(counts, main="Adults Distribution by marital-status and income", 
+  col=c("cyan1","darkseagreen2"),
+  legend = rownames(counts), las = 2)
+```
+
+Vemos que el porcentaje de "Married-civ-supouse" con income >50K es sustancialmente mayor que en el resto de las categorías. Obtenemos la matriz de porcentajes para determinar la probabilidad exacta. Es es del 43.47%, mientras que el resto de las categorías tienen cerca de un 90% de probabilidades de tener un income <=50K
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+t<-table(datosAdult[1:rows,]$"marital-status",datosAdult[1:rows,]$income)
+for (i in 1:dim(t)[1]){
+    t[i,]<-t[i,]/sum(t[i,])*100
+}
+t
+```
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+ggplot(data = datosAdult[1:rows,],aes(x=race,fill=income))+geom_bar(position="fill")+facet_wrap(~datosAdult$"marital-status")
+```
+
+Con este gráfico deducimos que las personas de raza negra son siempre las que tienen un porcentaje más elevado. La información a cerca de las personas en "Married-AF-spouse" de raza 1, no es relevante dado que se trata de un número minúsculo de personas. Más allá de esto el gráfico no revela mayor información relevante. Probamos con el sexo en el lugar de la raza.
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+ggplot(data = datosAdult[1:rows,],aes(x=sex,fill=income))+geom_bar(position="fill")+facet_wrap(~datosAdult$"marital-status")
+```
+
+Esto nos aporta más información, es curioso ver como la parporción income en el caso de Married-civ-spouse, la clase que más datos alberga, es igual entre distintos sexos, cuando ya hemos visto que como regla general esto no sucede con el total de la población.
+
+Resulta evidente que los atributos "capital-gain" y "capital-loss" pueden reducirse estos a un único atributo. 
+
+
+```{r echo=TRUE, messagessage=FALSE, warning=FALSE}
+datosAdult$`capital-balance`=datosAdult$`capital-gain`-datosAdult$`capital-loss`
+all((abs(datosAdult$`capital-balance`)==datosAdult$`capital-gain`+datosAdult$`capital-loss`) ==TRUE)
+# La última línea confirma que si hay "capital-gain", no hay "capital-loss".
+```
+
+
+Ahora miramos el atributo. 
+```{r echo=TRUE, messagessage=FALSE, warning=FALSE}
+#En relación con sexo
+ggplot(datosAdult, aes(x=datosAdult$`capital-balance`, fill=sex)) +
+  geom_density(alpha=0.6)
+
+```
+
+```{r echo=TRUE, messagessage=FALSE, warning=FALSE}
+#En relación con race
+ggplot(datosAdult, aes(x=datosAdult$`capital-balance`, fill=race)) +
+  geom_density(alpha=0.2)
+```
+
+```{r echo=TRUE, messagessage=FALSE, warning=FALSE}
+par(mar=c(10,4, 1, 2)) # 15 line height for bottom margin
+
+counts <- table(datosAdult$income, datosAdult$occupation)
+barplot(counts, main="Adults Distribution by occupation and income", 
+  col=c("cyan1","darkseagreen2"),
+  legend = rownames(counts), las = 2)
+
+counts <- table(datosAdult$income, datosAdult$workclass)
+barplot(counts, main="Adults Distribution by workclass and income", 
+  col=c("cyan1","darkseagreen2"),
+  legend = rownames(counts), las = 2)
+
+```
+
+Por último, tanto en workclass como occupation presentan diferentes porcentajes de income en sus clases, por lo tanto podrían ser consideradas relevantes para la tarea de modelado.
+
+Fuente para colapsar clases: 
+
+* https://stackoverflow.com/questions/3267312/in-r-how-to-collapse-categories-or-recategorize-variables
+
+Fuente de la función barplot():
+
+* https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/barplot
+* https://www.r-bloggers.com/setting-graph-margins-in-r-using-the-par-function-and-lots-of-cow-milk/
+
+Fuente de la función all(): 
+
+* https://www.oreilly.com/library/view/the-art-of/9781593273842/ch02s05.html
+
+Fuente de la función abs():
+
+* https://stackoverflow.com/questions/22306175/change-negative-values-in-dataframe-column-to-absolute-value
+
+Fuente de la plot de densidad:
+
+* http://www.sthda.com/english/wiki/ggplot2-density-plot-quick-start-guide-r-software-and-data-visualization
+
+##### Regresión logísitca
+
+Aplicaremos un sencillo modelo de regresión logística para predecir la variable income. 
+```{r echo=TRUE, messagessage=FALSE, warning=FALSE}
+input_df <- data.frame('age'=datosAdult$age,'fnlwgt'=datosAdult$fnlwgt,'sex'=datosAdult$sex,'relationship'=datosAdult$relationship,
+                       'race'=datosAdult$race,'education-num'=datosAdult$`education-num`,'marital-status'=datosAdult$`marital-status`,
+                       'capital-balance'=datosAdult$`capital-balance`,'occupation'=datosAdult$occupation,'workclass'=datosAdult$workclass,
+                       'income'=datosAdult$income)
+
+cols<-c("sex","race","income","relationship","race","sex","occupation","workclass","education-num", "marital-status")
+for (i in cols){
+  datosAdult[,i] <- as.factor(datosAdult[,i])
+  }
+str(input_df)
+
+```
+
+```{r echo=TRUE, messagessage=FALSE, warning=FALSE}
+#Normalización min-max
+normalize <- function(x) {
+return ((x - min(x)) / (max(x) - min(x))+1)
+}
+input_df$age<-normalize(input_df$age)
+input_df$capital.balance<-normalize(input_df$age)
+str(input_df)
+```
+
+```{r echo=TRUE, messagessage=FALSE, warning=FALSE}
+#Split the data
+library(caret)
+inTrain <- createDataPartition(y = input_df$income, p = .60, list = FALSE)
+training <- input_df[inTrain,]
+testing <- input_df[-inTrain,]
+dim(training)
+dim(testing)
+```
+
+```{r echo=TRUE, messagessage=FALSE, warning=FALSE}
+
+input_df.fit = glm(income ~ age + sex + relationship + race + education.num + marital.status + capital.balance, data=training, family=binomial)
+summary(input_df.fit)
+```
+
+```{r echo=TRUE, messagessage=FALSE, warning=FALSE}
+#Prediction with using a threshold of 0.6
+input_df.prob = predict(input_df.fit, testing, type="response")
+input_df.pred = rep("<=50K", dim(training)[1])
+input_df.pred[input_df.prob > .7] = ">50K"
+table(input_df.pred, training$income)
+total=((13639+373)/(13639+373+1263+4332))
+cat("Acc",total)
+```
+
+Fuente de ejercicios de regresión logística: 
+
+* http://rstudio-pubs-static.s3.amazonaws.com/74431_8cbd662559f6451f9cd411545f28107f.html
+* https://stats.idre.ucla.edu/r/dae/logit-regression/
+
+Fuente de la función createDataPartition():
+
+* https://www.rdocumentation.org/packages/caret/versions/6.0-85/topics/createDataPartition     
+
+Fuente de la función glm(): 
+
+* https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/glm
+
+Fuente de la función cat(): 
+
+* https://stackoverflow.com/questions/15589601/print-string-and-variable-contents-on-the-same-line-in-r
+
+***
+# Rúbrica
+***
+Pregunta Concepto Peso en la nota final
+
+1ª	Se acierta al identificar el tipo de problema que presenta el caso. 5%
+
+1ª	La explicación proporcionada es correcta. La justificación y argumentación está suficientemente elaborada. 5%
+
+1b	Se acierta al identificar el tipo de problema que presenta el caso. 5%
+
+1b	La explicación proporcionada es correcta. La justificación y argumentación está suficientemente elaborada. 5%
+
+1c	Se acierta al identificar el tipo de problema que presenta el caso. 5%
+
+1c	La explicación proporcionada es correcta. La justificación y argumentación está suficientemente elaborada. 5%
+
+2 Se carga la base de datos, se visualiza su estructura y se explican los hechos básicos. 5%
+
+2 Se estudia si existen atributos vacíos, y si es el caso, se adoptan medidas para tratar estos atributos. 2.5%
+
+2 Se transforma algún atributo para adaptarlo en un estudio posterior. 2.5%
+
+2 Se realiza alguna discretitzación de algún atributo. 5%
+
+2 Se crea un indicador nuevo a partido otros atributos 5%
+
+2 Se analizan los datos de forma visual y se extraen conclusiones tangibles. Hay que elaborar un discurso coherente y con conclusiones claras. 35%
+
+2 Se trata en profundidad algún otro aspecto respecto a los datos presentado en el módulo 2 10%
+
+2 Se ha buscado información adicional, se ha incluido en el documento de respuesta y las fuentes se han citado correctamente 5%

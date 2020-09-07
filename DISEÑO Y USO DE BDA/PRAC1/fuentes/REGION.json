@@ -1,0 +1,545 @@
+{
+"copyright": "(c) World Health Organization",
+"dataset":
+[
+],
+"attribute":
+[
+],
+"dimension":
+[
+{
+"label": "REGION",
+"display": "WHO region",
+"isMeasure": false,
+"code":
+[
+{
+"label": "AFR",
+"display": "Africa",
+"display_sequence": 10,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "AMR",
+"display": "Americas",
+"display_sequence": 20,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "SEAR",
+"display": "South-East Asia",
+"display_sequence": 30,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "EUR",
+"display": "Europe",
+"display_sequence": 40,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "EMR",
+"display": "Eastern Mediterranean",
+"display_sequence": 50,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WPR",
+"display": "Western Pacific",
+"display_sequence": 60,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "NA",
+"display": "NA",
+"display_sequence": 0,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GLOBAL",
+"display": "(WHO) Global",
+"display_sequence": 360,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WB_LI",
+"display": "Low-income",
+"display_sequence": 0,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WB_LMI",
+"display": "Lower-middle-income",
+"display_sequence": 0,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WB_UMI",
+"display": "Upper-middle-income",
+"display_sequence": 0,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WB_HI",
+"display": "High-income",
+"display_sequence": 0,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_LMI_HIC",
+"display": "High income countries",
+"display_sequence": 7,
+"url": "7_MS_HIC",
+"attr":
+[
+]
+},
+{
+"label": "WHO_LMI_AFR",
+"display": "Low-and-middle-income countries of the African Region",
+"display_sequence": 1,
+"url": "1_Afr_LM",
+"attr":
+[
+]
+},
+{
+"label": "WHO_LMI_AMR",
+"display": "Low-and-middle-income countries of the Americas",
+"display_sequence": 2,
+"url": "2_Amr_LM",
+"attr":
+[
+]
+},
+{
+"label": "WHO_LMI_EMR",
+"display": "Low-and-middle-income countries of the Eastern Mediterranean Region",
+"display_sequence": 3,
+"url": "5_Emr_LM",
+"attr":
+[
+]
+},
+{
+"label": "WHO_LMI_EUR",
+"display": "Low-and-middle-income countries of the European Region",
+"display_sequence": 4,
+"url": "4_Eur_LM",
+"attr":
+[
+]
+},
+{
+"label": "WHO_LMI_SEAR",
+"display": "Low-and-middle-income countries of the South-East Asia Region",
+"display_sequence": 5,
+"url": "3_Sear_LM",
+"attr":
+[
+]
+},
+{
+"label": "WHO_LMI_WPR",
+"display": "Low-and-middle-income countries of the Western Pacific Region",
+"display_sequence": 6,
+"url": "6_Wpr_LM",
+"attr":
+[
+]
+},
+{
+"label": "WHO_LMI_WORLD",
+"display": "Global",
+"display_sequence": 0,
+"url": "0_World",
+"attr":
+[
+]
+},
+{
+"label": "WHO_NONMEM",
+"display": "WHO Non Members",
+"display_sequence": 0,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "NOTSPEC",
+"display": "Not specified",
+"display_sequence": 0,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_AFRD",
+"display": "Africa region, stratum D (AFR D)",
+"display_sequence": 1405,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_AFRE",
+"display": "Africa region, stratum E(AFR E)",
+"display_sequence": 1410,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_AMRA",
+"display": "Americas region, stratum A (AMR A)",
+"display_sequence": 1415,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_AMRB",
+"display": "Americas region, stratum B (AMR B)",
+"display_sequence": 1420,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_AMRD",
+"display": "Americas region, stratum D (AMR D)",
+"display_sequence": 1425,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_EMRB",
+"display": "Eastern Mediterranean region, stratum B (EMR B)",
+"display_sequence": 1430,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_EMRD",
+"display": "Eastern Mediterranean region, stratum D (EMR D)",
+"display_sequence": 1435,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_EURA",
+"display": "Europe region, stratum A (EUR A)",
+"display_sequence": 1440,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_EURB",
+"display": "Europe region, stratum B (EUR B)",
+"display_sequence": 1445,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_EURC",
+"display": "Europe region, stratum C (EUR C)",
+"display_sequence": 1450,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_SEARB",
+"display": "South East Asia region, stratum B (SEAR B)",
+"display_sequence": 1455,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_SEARD",
+"display": "South East Asia region, stratum D (SEAR D)",
+"display_sequence": 1460,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_WPRA",
+"display": "Western Pacific region, stratum A (WPR A)",
+"display_sequence": 1465,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_WPRB",
+"display": "Western Pacific region, stratum B (WPR B)",
+"display_sequence": 1470,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "GBD_REG14_WORLD",
+"display": "World (WHO subregions by child and adult mortality)",
+"display_sequence": 0,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_HI_AMR",
+"display": "High income countries of the Americas",
+"display_sequence": 14,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_HI_EMR",
+"display": "High income countries of the Eastern Mediterranean Region",
+"display_sequence": 44,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_HI_EUR",
+"display": "High income countries of the European Region",
+"display_sequence": 34,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_HI_SEAR",
+"display": "High income countries of the South-East Asia Region",
+"display_sequence": 24,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_HI_WPR",
+"display": "High income countries of the Western Pacific Region",
+"display_sequence": 54,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_HI_GLOBAL",
+"display": "WHO High income countries of the world",
+"display_sequence": 94,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "OECD_NON_AFR",
+"display": "Africa",
+"display_sequence": 2010,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "OECD_HII_AMR",
+"display": "Americas, high-income OECD",
+"display_sequence": 2020,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "OECD_NON_AMR",
+"display": "Americas, non-OECD",
+"display_sequence": 2030,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "OECD_NON_EMR",
+"display": "Eastern Mediterranean",
+"display_sequence": 2040,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "OECD_HII_EUR",
+"display": "Europe, high-income OECD",
+"display_sequence": 2050,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "OECD_NON_EUR",
+"display": "Europe, non-OECD",
+"display_sequence": 2060,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "OECD_NON_SEAR",
+"display": "South-East Asia",
+"display_sequence": 2070,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "OECD_HII_WPR",
+"display": "Western Pacific , high-income OECD",
+"display_sequence": 2080,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "OECD_NON_WPR",
+"display": "Western Pacific, non-OECD",
+"display_sequence": 2090,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_AFRO",
+"display": "Africa Region",
+"display_sequence": 300,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_AMRO",
+"display": "America Region",
+"display_sequence": 310,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_EMRO",
+"display": "Eastern Mediterranean Region",
+"display_sequence": 320,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_EURO",
+"display": "European Region",
+"display_sequence": 330,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_SEARO",
+"display": "South-East Asia Region",
+"display_sequence": 340,
+"url": "",
+"attr":
+[
+]
+},
+{
+"label": "WHO_WPRO",
+"display": "Western Pacific Region",
+"display_sequence": 350,
+"url": "",
+"attr":
+[
+]
+}
+]
+}
+],
+"fact":
+[
+]
+}
