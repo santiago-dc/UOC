@@ -1,0 +1,2501 @@
+from,to,dist
+A Coruña,A Coruña,0.0
+A Coruña,Albacete,724.8566505102697
+A Coruña,Alicante/Alacant,846.2121629642453
+A Coruña,Almería,840.6159432006446
+A Coruña,Asturias,203.99486628326036
+A Coruña,Badajoz,532.1453759262387
+A Coruña,Barcelona,876.6491343395347
+A Coruña,Burgos,410.21711891709754
+A Coruña,Cantabria,367.1358545516816
+A Coruña,Castellón/Castelló,762.2017055377144
+A Coruña,Ceuta,849.5022207531235
+A Coruña,Ciudad Real,612.1663325475693
+A Coruña,Cuenca,629.6636223930277
+A Coruña,Cáceres,417.0063359048735
+A Coruña,Cádiz,763.616874481958
+A Coruña,Córdoba,661.061201911691
+A Coruña,Girona,925.4641997450437
+A Coruña,Granada,788.5698224871732
+A Coruña,Guadalajara,541.3161745815707
+A Coruña,Guipúzcoa,510.8316811502312
+A Coruña,Huelva,628.3249918771645
+A Coruña,Huesca,698.6185253851461
+A Coruña,Illes Balears,1026.9291152374224
+A Coruña,Jaén,712.1737192580991
+A Coruña,La Rioja,486.08615797568416
+A Coruña,León,228.31017038386722
+A Coruña,Lleida,789.5850987410006
+A Coruña,Lugo,84.0125834878527
+A Coruña,Madrid,488.97892020404714
+A Coruña,Melilla,992.9067045016762
+A Coruña,Murcia,831.0857605407799
+A Coruña,Málaga,776.6264249872139
+A Coruña,Navarra,550.526986143243
+A Coruña,Ourense,117.05796957069504
+A Coruña,Palencia,333.70161334432385
+A Coruña,Pontevedra,84.57042882087856
+A Coruña,Salamanca,332.26541196284995
+A Coruña,Segovia,423.9999480393233
+A Coruña,Sevilla,677.4531711851439
+A Coruña,Soria,514.8212107008474
+A Coruña,Tarragona,808.3802550649634
+A Coruña,Teruel,686.0350676546361
+A Coruña,Toledo,502.6098343413379
+A Coruña,Valencia/València,788.3750665143486
+A Coruña,Valladolid,341.7750290822735
+A Coruña,Vizcaya,459.1201763107837
+A Coruña,Zamora,265.0198030083705
+A Coruña,Zaragoza,616.4753884810918
+A Coruña,Álava,473.0589606472484
+A Coruña,Ávila,401.0531930401987
+Albacete,A Coruña,724.8566505102697
+Albacete,Albacete,0.0
+Albacete,Alicante/Alacant,133.16794527952538
+Albacete,Almería,198.37316356346352
+Albacete,Asturias,602.4117326381419
+Albacete,Badajoz,368.49080392662
+Albacete,Barcelona,456.300747907717
+Albacete,Burgos,400.0754824549232
+Albacete,Cantabria,516.5184877438181
+Albacete,Castellón/Castelló,202.55698859255514
+Albacete,Ceuta,449.1176343560871
+Albacete,Ciudad Real,161.21838797046928
+Albacete,Cuenca,119.6079261352203
+Albacete,Cáceres,374.575782254295
+Albacete,Cádiz,420.78488733063745
+Albacete,Córdoba,268.84422685564385
+Albacete,Girona,535.1273532132248
+Albacete,Granada,231.06006188872726
+Albacete,Guadalajara,225.28398865881977
+Albacete,Guipúzcoa,474.25586570111557
+Albacete,Huelva,448.46529324958175
+Albacete,Huesca,397.1224896775938
+Albacete,Illes Balears,424.24270001909275
+Albacete,Jaén,168.95698197480243
+Albacete,La Rioja,388.8776977979838
+Albacete,León,520.8907271653172
+Albacete,Lleida,415.39797393651577
+Albacete,Lugo,655.9349743416293
+Albacete,Madrid,239.52953838727746
+Albacete,Melilla,409.9350780921847
+Albacete,Murcia,112.07577897479241
+Albacete,Málaga,335.4102740916116
+Albacete,Navarra,424.18099399399676
+Albacete,Ourense,616.4169813650426
+Albacete,Palencia,440.94046215918155
+Albacete,Pontevedra,682.8866672904047
+Albacete,Salamanca,405.9030015051218
+Albacete,Segovia,314.25856838407987
+Albacete,Sevilla,372.4483067782096
+Albacete,Soria,314.21105396656515
+Albacete,Tarragona,352.47872146219356
+Albacete,Teruel,219.5628554953237
+Albacete,Toledo,230.79494078552918
+Albacete,Valencia/València,126.2782866965299
+Albacete,Valladolid,394.4586471633058
+Albacete,Vizcaya,493.40742026327234
+Albacete,Zamora,460.52761907209856
+Albacete,Zaragoza,302.15728322966766
+Albacete,Álava,436.3383170766953
+Albacete,Ávila,326.35771831267454
+Alicante/Alacant,A Coruña,846.2121629642453
+Alicante/Alacant,Albacete,133.16794527952538
+Alicante/Alacant,Alicante/Alacant,0.0
+Alicante/Alacant,Almería,232.6620098678711
+Alicante/Alacant,Asturias,708.8282679157071
+Alicante/Alacant,Badajoz,496.5140678059612
+Alicante/Alacant,Barcelona,407.5500712701179
+Alicante/Alacant,Burgos,491.34244145971945
+Alicante/Alacant,Cantabria,602.7758443693765
+Alicante/Alacant,Castellón/Castelló,179.98545605118463
+Alicante/Alacant,Ceuta,522.8157108652301
+Alicante/Alacant,Ciudad Real,292.04452861612907
+Alicante/Alacant,Cuenca,218.24071018148535
+Alicante/Alacant,Cáceres,507.71914501973936
+Alicante/Alacant,Cádiz,512.9911608362811
+Alicante/Alacant,Córdoba,381.33014301059706
+Alicante/Alacant,Girona,482.97955529000626
+Alicante/Alacant,Granada,301.8575131435283
+Alicante/Alacant,Guadalajara,319.01813965547336
+Alicante/Alacant,Guipúzcoa,532.5532301313582
+Alicante/Alacant,Huelva,564.8216163766876
+Alicante/Alacant,Huesca,403.94626839255034
+Alicante/Alacant,Illes Balears,314.3969657958943
+Alicante/Alacant,Jaén,271.27371722344895
+Alicante/Alacant,La Rioja,461.08917532769374
+Alicante/Alacant,León,633.4923118660324
+Alicante/Alacant,Lleida,391.9305515099389
+Alicante/Alacant,Lugo,773.7349531707551
+Alicante/Alacant,Madrid,357.23324843642746
+Alicante/Alacant,Melilla,423.98665224971626
+Alicante/Alacant,Murcia,98.40671938021761
+Alicante/Alacant,Málaga,418.8902550293783
+Alicante/Alacant,Navarra,475.14000524653153
+Alicante/Alacant,Ourense,741.1208961608029
+Alicante/Alacant,Palencia,544.3003685972175
+Alicante/Alacant,Pontevedra,809.0340950917657
+Alicante/Alacant,Salamanca,534.9091506281003
+Alicante/Alacant,Segovia,425.9335888610772
+Alicante/Alacant,Sevilla,480.54667825369813
+Alicante/Alacant,Soria,390.6700392271506
+Alicante/Alacant,Tarragona,315.46903631393104
+Alicante/Alacant,Teruel,241.35857955556168
+Alicante/Alacant,Toledo,361.6484869147325
+Alicante/Alacant,Valencia/València,83.90196724212664
+Alicante/Alacant,Valladolid,508.48211064048735
+Alicante/Alacant,Vizcaya,562.4545832650456
+Alicante/Alacant,Zamora,581.2230316401399
+Alicante/Alacant,Zaragoza,343.2373174033807
+Alicante/Alacant,Álava,506.4855548112239
+Alicante/Alacant,Ávila,453.16351205095066
+Almería,A Coruña,840.6159432006446
+Almería,Albacete,198.37316356346352
+Almería,Alicante/Alacant,232.6620098678711
+Almería,Almería,0.0
+Almería,Asturias,753.3944005462932
+Almería,Badajoz,369.10467148272977
+Almería,Barcelona,632.3814056600165
+Almería,Burgos,576.0197126981884
+Almería,Cantabria,693.0699828605544
+Almería,Castellón/Castelló,384.95555266957047
+Almería,Ceuta,294.4765811283764
+Almería,Ciudad Real,229.71590759584936
+Almería,Cuenca,310.2754360453701
+Almería,Cáceres,437.2907370323717
+Almería,Cádiz,300.02200091655806
+Almería,Córdoba,220.8184510940637
+Almería,Girona,709.7744176346368
+Almería,Granada,88.55164172328506
+Almería,Guadalajara,408.79438682112124
+Almería,Guipúzcoa,667.3615327465336
+Almería,Huelva,389.88054230892664
+Almería,Huesca,593.5423023223175
+Almería,Illes Balears,540.7734804903396
+Almería,Jaén,130.28230040373987
+Almería,La Rioja,577.8313048489778
+Almería,León,664.2159199238479
+Almería,Lleida,603.4135544069525
+Almería,Lugo,783.2460869711347
+Almería,Madrid,393.65424622127784
+Almería,Melilla,211.56208008586796
+Almería,Murcia,134.4714460202943
+Almería,Málaga,202.58579186575844
+Almería,Navarra,619.9666701909184
+Almería,Ourense,725.0288195522353
+Almería,Palencia,602.1930289462191
+Almería,Pontevedra,783.5801818084049
+Almería,Salamanca,508.3537319642854
+Almería,Segovia,471.2104934869391
+Almería,Sevilla,294.60244220700235
+Almería,Soria,503.3115972601441
+Almería,Tarragona,533.4785655321315
+Almería,Teruel,416.10369662747866
+Almería,Toledo,344.6654234955027
+Almería,Valencia/València,289.1623039657808
+Almería,Valladolid,541.6302082727823
+Almería,Vizcaya,681.7286469127354
+Almería,Zamora,588.9122709303937
+Almería,Zaragoza,500.35808939816263
+Almería,Álava,625.2078439412031
+Almería,Ávila,446.12414393338645
+Asturias,A Coruña,203.99486628326036
+Asturias,Albacete,602.4117326381419
+Asturias,Alicante/Alacant,708.8282679157071
+Asturias,Almería,753.3944005462932
+Asturias,Asturias,0.0
+Asturias,Badajoz,520.6940309766229
+Asturias,Barcelona,681.6160800316834
+Asturias,Burgos,229.71058164091238
+Asturias,Cantabria,164.2510312198871
+Asturias,Castellón/Castelló,596.5017050070593
+Asturias,Ceuta,832.5532464540128
+Asturias,Ciudad Real,527.0449601683271
+Asturias,Cuenca,491.80502392802555
+Asturias,Cáceres,392.2792129163078
+Asturias,Cádiz,752.2749340550904
+Asturias,Córdoba,614.9550159658893
+Asturias,Girona,726.2757537218899
+Asturias,Granada,720.2524060555396
+Asturias,Guadalajara,390.3142563567164
+Asturias,Guipúzcoa,308.4628018694735
+Asturias,Huelva,640.9749722023996
+Asturias,Huesca,503.07540553619543
+Asturias,Illes Balears,849.0897559981222
+Asturias,Jaén,634.6846788358762
+Asturias,La Rioja,295.97994157647236
+Asturias,León,93.15015341526089
+Asturias,Lleida,594.6758918934775
+Asturias,Lugo,123.82952264560862
+Asturias,Madrid,365.04676646138654
+Asturias,Melilla,933.9036167406285
+Asturias,Murcia,714.0137250424285
+Asturias,Málaga,739.1848648844888
+Asturias,Navarra,352.0903475634045
+Asturias,Ourense,190.82939801538046
+Asturias,Palencia,164.78150519275627
+Asturias,Pontevedra,238.59607981988063
+Asturias,Salamanca,284.6881391924202
+Asturias,Segovia,288.3702011513299
+Asturias,Sevilla,661.9911937970224
+Asturias,Soria,339.392834391931
+Asturias,Tarragona,621.3449945592388
+Asturias,Teruel,516.4682331013447
+Asturias,Toledo,410.80341412462906
+Asturias,Valencia/València,640.2107764067707
+Asturias,Valladolid,211.94240587971098
+Asturias,Vizcaya,256.05412018870106
+Asturias,Zamora,181.26800927228325
+Asturias,Zaragoza,434.0428419112304
+Asturias,Álava,275.45250789076795
+Asturias,Ávila,314.34601514097835
+Badajoz,A Coruña,532.1453759262387
+Badajoz,Albacete,368.49080392662
+Badajoz,Alicante/Alacant,496.5140678059612
+Badajoz,Almería,369.10467148272977
+Badajoz,Asturias,520.6940309766229
+Badajoz,Badajoz,0.0
+Badajoz,Barcelona,770.8451314292914
+Badajoz,Burgos,451.97511546450363
+Badajoz,Cantabria,543.2507261772165
+Badajoz,Castellón/Castelló,536.1900765290505
+Badajoz,Ceuta,318.8759490220669
+Badajoz,Ciudad Real,207.99872809514568
+Badajoz,Cuenca,365.6857362443345
+Badajoz,Cáceres,128.42810118191295
+Badajoz,Cádiz,234.60847971992357
+Badajoz,Córdoba,150.66200936546184
+Badajoz,Girona,846.7022027237415
+Badajoz,Granada,292.03168755169764
+Badajoz,Guadalajara,378.5118557726297
+Badajoz,Guipúzcoa,598.7336017902716
+Badajoz,Huelva,129.38811256441818
+Badajoz,Huesca,646.7176060534897
+Badajoz,Illes Balears,789.5170170106222
+Badajoz,Jaén,247.2125043826118
+Badajoz,La Rioja,505.2680309036255
+Badajoz,León,429.5273922052717
+Badajoz,Lleida,704.6584938107069
+Badajoz,Lugo,498.62658301682967
+Badajoz,Madrid,295.6587729539193
+Badajoz,Melilla,472.3215124422349
+Badajoz,Murcia,428.1486498970866
+Badajoz,Málaga,248.087784908259
+Badajoz,Navarra,581.7335572317153
+Badajoz,Ourense,416.93836003373093
+Badajoz,Palencia,426.43106785824637
+Badajoz,Pontevedra,459.1693454889248
+Badajoz,Salamanca,236.36043247049986
+Badajoz,Segovia,332.91051221355315
+Badajoz,Sevilla,145.93075248650922
+Badajoz,Soria,454.0892466510325
+Badajoz,Tarragona,667.239137282518
+Badajoz,Teruel,505.2635028758062
+Badajoz,Toledo,211.76522280238882
+Badajoz,Valencia/València,489.61274521376356
+Badajoz,Valladolid,349.302071617737
+Badajoz,Vizcaya,582.7003692748992
+Badajoz,Zamora,340.3581763922474
+Badajoz,Zaragoza,524.0042675634573
+Badajoz,Álava,540.6279293316464
+Badajoz,Ávila,238.98202631824802
+Barcelona,A Coruña,876.6491343395347
+Barcelona,Albacete,456.300747907717
+Barcelona,Alicante/Alacant,407.5500712701179
+Barcelona,Almería,632.3814056600165
+Barcelona,Asturias,681.6160800316834
+Barcelona,Badajoz,770.8451314292914
+Barcelona,Barcelona,0.0
+Barcelona,Burgos,469.55231972645606
+Barcelona,Cantabria,520.932230111752
+Barcelona,Castellón/Castelló,253.7468210014299
+Barcelona,Ceuta,905.1673702947505
+Barcelona,Ciudad Real,580.0134759902687
+Barcelona,Cuenca,407.3571967973148
+Barcelona,Cáceres,714.0781874112563
+Barcelona,Cádiz,874.8885064619278
+Barcelona,Córdoba,713.5856324952035
+Barcelona,Girona,78.86728532371467
+Barcelona,Granada,684.7746747965999
+Barcelona,Guadalajara,407.62841771048363
+Barcelona,Guipúzcoa,381.71450231138334
+Barcelona,Huelva,878.7698428498715
+Barcelona,Huesca,178.55124476650542
+Barcelona,Illes Balears,241.2074253482445
+Barcelona,Jaén,624.0918149973248
+Barcelona,La Rioja,390.8808397959197
+Barcelona,León,652.1846779109355
+Barcelona,Lleida,87.08934193532046
+Barcelona,Lugo,792.6702526822639
+Barcelona,Madrid,495.98627037017076
+Barcelona,Melilla,831.3951606418183
+Barcelona,Murcia,500.39053302687904
+Barcelona,Málaga,791.6848396685734
+Barcelona,Navarra,330.2554590869636
+Barcelona,Ourense,809.3182761558047
+Barcelona,Palencia,547.5127715951677
+Barcelona,Pontevedra,878.7924291526009
+Barcelona,Salamanca,675.1100858006946
+Barcelona,Segovia,508.7358501068759
+Barcelona,Sevilla,817.2763577039776
+Barcelona,Soria,377.8353979101097
+Barcelona,Tarragona,105.41753302841973
+Barcelona,Teruel,265.60838225825864
+Barcelona,Toledo,565.4074618416912
+Barcelona,Valencia/València,343.4912830440246
+Barcelona,Valladolid,569.2974825843083
+Barcelona,Vizcaya,434.51105682097733
+Barcelona,Zamora,654.7889416474045
+Barcelona,Zaragoza,275.1323220892038
+Barcelona,Álava,406.1781162022078
+Barcelona,Ávila,598.5082522885034
+Burgos,A Coruña,410.21711891709754
+Burgos,Albacete,400.0754824549232
+Burgos,Alicante/Alacant,491.34244145971945
+Burgos,Almería,576.0197126981884
+Burgos,Asturias,229.71058164091238
+Burgos,Badajoz,451.97511546450363
+Burgos,Barcelona,469.55231972645606
+Burgos,Burgos,0.0
+Burgos,Cantabria,117.22535394357605
+Burgos,Castellón/Castelló,367.3318151283765
+Burgos,Ceuta,722.5617058318342
+Burgos,Ciudad Real,370.67354502309075
+Burgos,Cuenca,281.87302237245945
+Burgos,Cáceres,340.4687520622803
+Burgos,Cádiz,654.3373987061241
+Burgos,Córdoba,492.057028474729
+Burgos,Girona,524.464516705443
+Burgos,Granada,563.6911439744301
+Burgos,Guadalajara,175.4834171951545
+Burgos,Guipúzcoa,153.3359397174298
+Burgos,Huelva,581.3000163449938
+Burgos,Huesca,294.0931982248497
+Burgos,Illes Balears,620.7851404711256
+Burgos,Jaén,475.12432431050104
+Burgos,La Rioja,81.3970414147037
+Burgos,León,183.09523676526652
+Burgos,Lleida,383.0154054021804
+Burgos,Lugo,326.92859642953283
+Burgos,Madrid,189.50235884251163
+Burgos,Melilla,775.55051214488
+Burgos,Murcia,511.49922075132173
+Burgos,Málaga,613.8814362453285
+Burgos,Navarra,160.75284589399553
+Burgos,Ourense,340.4563142602535
+Burgos,Palencia,77.96128958786805
+Burgos,Pontevedra,409.3992478605222
+Burgos,Salamanca,254.30096637069772
+Burgos,Segovia,122.65955281084103
+Burgos,Sevilla,568.1753529104581
+Burgos,Soria,109.7246540716967
+Burgos,Tarragona,398.17547548677646
+Burgos,Teruel,286.93198441216026
+Burgos,Toledo,267.6499440733356
+Burgos,Valencia/València,417.5099806117967
+Burgos,Valladolid,121.24389598711814
+Burgos,Vizcaya,130.7257585814844
+Burgos,Zamora,195.54788468308382
+Burgos,Zaragoza,206.87543891695336
+Burgos,Álava,94.82530805167131
+Burgos,Ávila,213.84330921353964
+Cantabria,A Coruña,367.1358545516816
+Cantabria,Albacete,516.5184877438181
+Cantabria,Alicante/Alacant,602.7758443693765
+Cantabria,Almería,693.0699828605544
+Cantabria,Asturias,164.2510312198871
+Cantabria,Badajoz,543.2507261772165
+Cantabria,Barcelona,520.932230111752
+Cantabria,Burgos,117.22535394357605
+Cantabria,Cantabria,0.0
+Cantabria,Castellón/Castelló,465.55860135384864
+Cantabria,Ceuta,829.2673436242562
+Cantabria,Ciudad Real,484.33098509664165
+Cantabria,Cuenca,397.66945987218924
+Cantabria,Cáceres,422.02013915797977
+Cantabria,Cádiz,757.4378403345885
+Cantabria,Córdoba,599.9294624254575
+Cantabria,Girona,562.8748879069385
+Cantabria,Granada,678.694053333134
+Cantabria,Guadalajara,291.33205843904415
+Cantabria,Guipúzcoa,144.21924539674043
+Cantabria,Huelva,671.9682743534918
+Cantabria,Huesca,342.98188408715123
+Cantabria,Illes Balears,701.6096561969264
+Cantabria,Jaén,590.122299728649
+Cantabria,La Rioja,149.75363010821587
+Cantabria,León,171.57062069854595
+Cantabria,Lleida,434.49627667782613
+Cantabria,Lugo,284.5952261364657
+Cantabria,Madrid,303.7631724142283
+Cantabria,Melilla,891.3838243030291
+Cantabria,Murcia,627.5334227773585
+Cantabria,Málaga,723.4185744906725
+Cantabria,Navarra,190.71677583213437
+Cantabria,Ourense,330.23604195763954
+Cantabria,Palencia,117.19068609062401
+Cantabria,Pontevedra,390.371021037517
+Cantabria,Salamanca,321.3536925675012
+Cantabria,Segovia,230.93274323658216
+Cantabria,Sevilla,669.2432753278945
+Cantabria,Soria,212.699698008347
+Cantabria,Tarragona,467.9724085216891
+Cantabria,Teruel,384.3975548022655
+Cantabria,Toledo,376.49375472527186
+Cantabria,Valencia/València,525.9884894550094
+Cantabria,Valladolid,194.04228360245273
+Cantabria,Vizcaya,91.98651114926554
+Cantabria,Zamora,232.250472174252
+Cantabria,Zaragoza,290.2365842037063
+Cantabria,Álava,117.20078465390728
+Cantabria,Ávila,306.01693066697214
+Castellón/Castelló,A Coruña,762.2017055377144
+Castellón/Castelló,Albacete,202.55698859255514
+Castellón/Castelló,Alicante/Alacant,179.98545605118463
+Castellón/Castelló,Almería,384.95555266957047
+Castellón/Castelló,Asturias,596.5017050070593
+Castellón/Castelló,Badajoz,536.1900765290505
+Castellón/Castelló,Barcelona,253.7468210014299
+Castellón/Castelló,Burgos,367.3318151283765
+Castellón/Castelló,Cantabria,465.55860135384864
+Castellón/Castelló,Castellón/Castelló,0.0
+Castellón/Castelló,Ceuta,651.5457433406593
+Castellón/Castelló,Ciudad Real,334.97344166484174
+Castellón/Castelló,Cuenca,173.3640526848752
+Castellón/Castelló,Cáceres,502.46999548359366
+Castellón/Castelló,Cádiz,621.8904011453657
+Castellón/Castelló,Córdoba,463.3335735624285
+Castellón/Castelló,Girona,332.58424245196153
+Castellón/Castelló,Granada,431.87802655715126
+Castellón/Castelló,Guadalajara,224.20882305819012
+Castellón/Castelló,Guipúzcoa,371.24470362378884
+Castellón/Castelló,Huelva,634.7600537800414
+Castellón/Castelló,Huesca,224.0726095427275
+Castellón/Castelló,Illes Balears,273.69000349186916
+Castellón/Castelló,Jaén,370.59030293473523
+Castellón/Castelló,La Rioja,316.28990193098355
+Castellón/Castelló,León,536.239874245198
+Castellón/Castelló,Lleida,218.64969645764893
+Castellón/Castelló,Lugo,682.5489442831728
+Castellón/Castelló,Madrid,298.8956171037684
+Castellón/Castelló,Melilla,590.9972524610816
+Castellón/Castelló,Murcia,258.6922182472175
+Castellón/Castelló,Málaga,537.9405823539207
+Castellón/Castelló,Navarra,310.84572656253687
+Castellón/Castelló,Ourense,670.6717360249255
+Castellón/Castelló,Palencia,434.92768191209774
+Castellón/Castelló,Pontevedra,741.497750934138
+Castellón/Castelló,Salamanca,491.8877146500899
+Castellón/Castelló,Segovia,343.41876412403906
+Castellón/Castelló,Sevilla,567.4943621013706
+Castellón/Castelló,Soria,257.8321851681986
+Castellón/Castelló,Tarragona,150.33080798075778
+Castellón/Castelló,Teruel,81.20646095644467
+Castellón/Castelló,Toledo,346.1029232259045
+Castellón/Castelló,Valencia/València,99.64120496059232
+Castellón/Castelló,Valladolid,422.3903309777911
+Castellón/Castelló,Vizcaya,408.8962965544252
+Castellón/Castelló,Zamora,506.1537703327574
+Castellón/Castelló,Zaragoza,180.8219694892294
+Castellón/Castelló,Álava,356.62305404392043
+Castellón/Castelló,Ávila,407.86376694667877
+Ceuta,A Coruña,849.5022207531235
+Ceuta,Albacete,449.1176343560871
+Ceuta,Alicante/Alacant,522.8157108652301
+Ceuta,Almería,294.4765811283764
+Ceuta,Asturias,832.5532464540128
+Ceuta,Badajoz,318.8759490220669
+Ceuta,Barcelona,905.1673702947505
+Ceuta,Burgos,722.5617058318342
+Ceuta,Cantabria,829.2673436242562
+Ceuta,Castellón/Castelló,651.5457433406593
+Ceuta,Ceuta,0.0
+Ceuta,Ciudad Real,363.3954650581019
+Ceuta,Cuenca,525.2860855924328
+Ceuta,Cáceres,443.75040869493006
+Ceuta,Cádiz,86.59408443985033
+Ceuta,Córdoba,230.62999299365237
+Ceuta,Girona,983.9118251442341
+Ceuta,Granada,222.44155516514834
+Ceuta,Guadalajara,593.3495831794813
+Ceuta,Guipúzcoa,850.7634045337476
+Ceuta,Huelva,233.72728137950037
+Ceuta,Huesca,833.2281468547216
+Ceuta,Illes Balears,834.6183195021131
+Ceuta,Jaén,284.72138302407416
+Ceuta,La Rioja,754.4162428157942
+Ceuta,León,739.7927571526417
+Ceuta,Lleida,862.6924639686661
+Ceuta,Lugo,817.4342653030882
+Ceuta,Madrid,536.86617127944
+Ceuta,Melilla,224.9476382829372
+Ceuta,Murcia,424.94314534805955
+Ceuta,Málaga,116.3439868034899
+Ceuta,Navarra,817.4125759877357
+Ceuta,Ourense,735.2454429182588
+Ceuta,Palencia,717.4182493282867
+Ceuta,Pontevedra,773.8968753699056
+Ceuta,Salamanca,548.8512497115981
+Ceuta,Segovia,600.4869607110762
+Ceuta,Sevilla,172.9941661290282
+Ceuta,Soria,687.4047286241243
+Ceuta,Tarragona,801.596144028207
+Ceuta,Teruel,660.3809288065418
+Ceuta,Toledo,454.9157220295224
+Ceuta,Valencia/València,565.642767354965
+Ceuta,Valladolid,642.1843221039052
+Ceuta,Vizcaya,848.5352834435166
+Ceuta,Zamora,651.3282114679544
+Ceuta,Zaragoza,721.3971749268741
+Ceuta,Álava,797.6970621776808
+Ceuta,Ávila,527.9640947280358
+Ciudad Real,A Coruña,612.1663325475693
+Ciudad Real,Albacete,161.21838797046928
+Ciudad Real,Alicante/Alacant,292.04452861612907
+Ciudad Real,Almería,229.71590759584936
+Ciudad Real,Asturias,527.0449601683271
+Ciudad Real,Badajoz,207.99872809514568
+Ciudad Real,Barcelona,580.0134759902687
+Ciudad Real,Burgos,370.67354502309075
+Ciudad Real,Cantabria,484.33098509664165
+Ciudad Real,Castellón/Castelló,334.97344166484174
+Ciudad Real,Ceuta,363.3954650581019
+Ciudad Real,Ciudad Real,0.0
+Ciudad Real,Cuenca,174.5284981255902
+Ciudad Real,Cáceres,223.8039053439162
+Ciudad Real,Cádiz,309.7288057805858
+Ciudad Real,Córdoba,139.8546498792737
+Ciudad Real,Girona,657.9170410852685
+Ciudad Real,Granada,195.5905239673282
+Ciudad Real,Guadalajara,229.95736442685538
+Ciudad Real,Guipúzcoa,488.98928891744515
+Ciudad Real,Huelva,299.9214173530312
+Ciudad Real,Huesca,479.50461589626934
+Ciudad Real,Illes Balears,581.762051002775
+Ciudad Real,Jaén,108.01165174645014
+Ciudad Real,La Rioja,393.1176559005777
+Ciudad Real,León,436.42973750385875
+Ciudad Real,Lleida,522.669790862499
+Ciudad Real,Lugo,553.5610705689553
+Ciudad Real,Madrid,181.17286167545794
+Ciudad Real,Melilla,409.77590822865676
+Ciudad Real,Murcia,236.95078100833314
+Ciudad Real,Málaga,249.1179478644301
+Ciudad Real,Navarra,454.048362666646
+Ciudad Real,Ourense,497.465487336096
+Ciudad Real,Palencia,383.0189987633987
+Ciudad Real,Pontevedra,558.351232905159
+Ciudad Real,Salamanca,280.39881569752555
+Ciudad Real,Segovia,254.32032713578593
+Ciudad Real,Sevilla,239.82840701530304
+Ciudad Real,Soria,324.3873109667565
+Ciudad Real,Tarragona,474.7478370147064
+Ciudad Real,Teruel,317.4865204393312
+Ciudad Real,Toledo,116.27149508498904
+Ciudad Real,Valencia/València,281.7652323720272
+Ciudad Real,Valladolid,316.7660279432135
+Ciudad Real,Vizcaya,490.836861389887
+Ciudad Real,Zamora,359.3495887434705
+Ciudad Real,Zaragoza,362.3009361928298
+Ciudad Real,Álava,437.8081657778431
+Ciudad Real,Ávila,216.60125919741927
+Cuenca,A Coruña,629.6636223930277
+Cuenca,Albacete,119.6079261352203
+Cuenca,Alicante/Alacant,218.24071018148535
+Cuenca,Almería,310.2754360453701
+Cuenca,Asturias,491.80502392802555
+Cuenca,Badajoz,365.6857362443345
+Cuenca,Barcelona,407.3571967973148
+Cuenca,Burgos,281.87302237245945
+Cuenca,Cantabria,397.66945987218924
+Cuenca,Castellón/Castelló,173.3640526848752
+Cuenca,Ceuta,525.2860855924328
+Cuenca,Ciudad Real,174.5284981255902
+Cuenca,Cuenca,0.0
+Cuenca,Cáceres,330.16701314652033
+Cuenca,Cádiz,480.45087598716066
+Cuenca,Córdoba,312.64126813405755
+Cuenca,Girona,484.6400248817745
+Cuenca,Granada,323.2373435762481
+Cuenca,Guadalajara,106.42387368306544
+Cuenca,Guipúzcoa,357.24784690305995
+Cuenca,Huelva,471.5028327594588
+Cuenca,Huesca,308.3870600319375
+Cuenca,Illes Balears,441.44759278781316
+Cuenca,Jaén,242.60125948268737
+Cuenca,La Rioja,269.77112357765213
+Cuenca,León,415.25775422928916
+Cuenca,Lleida,348.1428735823681
+Cuenca,Lugo,555.9501660214576
+Cuenca,Madrid,142.19839832331527
+Cuenca,Melilla,519.9707612992313
+Cuenca,Murcia,229.86776720832341
+Cuenca,Málaga,408.94517318562123
+Cuenca,Navarra,310.1138473996149
+Cuenca,Ourense,527.4590828965373
+Cuenca,Palencia,327.9736001154983
+Cuenca,Pontevedra,596.6875680553642
+Cuenca,Salamanca,330.76469663051796
+Cuenca,Segovia,207.73634717407907
+Cuenca,Sevilla,414.2247461271895
+Cuenca,Soria,195.00347545547393
+Cuenca,Tarragona,302.6645866979338
+Cuenca,Teruel,143.11664475527547
+Cuenca,Toledo,173.52416042488835
+Cuenca,Valencia/València,160.87439875793535
+Cuenca,Valladolid,290.38468528571923
+Cuenca,Vizcaya,374.278004271469
+Cuenca,Zamora,365.2113987999465
+Cuenca,Zaragoza,197.69520042405136
+Cuenca,Álava,317.2781028774194
+Cuenca,Ávila,246.35568169540358
+Cáceres,A Coruña,417.0063359048735
+Cáceres,Albacete,374.575782254295
+Cáceres,Alicante/Alacant,507.71914501973936
+Cáceres,Almería,437.2907370323717
+Cáceres,Asturias,392.2792129163078
+Cáceres,Badajoz,128.42810118191295
+Cáceres,Barcelona,714.0781874112563
+Cáceres,Burgos,340.4687520622803
+Cáceres,Cantabria,422.02013915797977
+Cáceres,Castellón/Castelló,502.46999548359366
+Cáceres,Ceuta,443.75040869493006
+Cáceres,Ciudad Real,223.8039053439162
+Cáceres,Cuenca,330.16701314652033
+Cáceres,Cáceres,0.0
+Cáceres,Cádiz,361.27729499297027
+Cáceres,Córdoba,244.12048509279148
+Cáceres,Girona,785.9469657784415
+Cáceres,Granada,375.5689031929181
+Cáceres,Guadalajara,307.0217348393059
+Cáceres,Guipúzcoa,492.1519888591409
+Cáceres,Huelva,252.46277625223885
+Cáceres,Huesca,570.6642360320928
+Cáceres,Illes Balears,771.2395835467089
+Cáceres,Jaén,307.0470134124713
+Cáceres,La Rioja,403.3645775110216
+Cáceres,León,301.1709790029076
+Cáceres,Lleida,639.6874328652494
+Cáceres,Lugo,375.63842481823514
+Cáceres,Madrid,218.4452411503547
+Cáceres,Melilla,576.0793817745393
+Cáceres,Murcia,460.62576417935975
+Cáceres,Málaga,360.98892009463395
+Cáceres,Navarra,483.8247872263271
+Cáceres,Ourense,300.05658754329664
+Cáceres,Palencia,304.85609015917873
+Cáceres,Pontevedra,350.99697273453967
+Cáceres,Salamanca,108.04267276640113
+Cáceres,Segovia,230.43882193321755
+Cáceres,Sevilla,271.33079460938006
+Cáceres,Soria,363.97402645581116
+Cáceres,Tarragona,615.2311147623948
+Cáceres,Teruel,454.32594734684835
+Cáceres,Toledo,156.64362138354136
+Cáceres,Valencia/València,479.44503548368704
+Cáceres,Valladolid,228.7052715344565
+Cáceres,Vizcaya,469.89584660972616
+Cáceres,Zamora,212.03013640700377
+Cáceres,Zaragoza,449.161096721044
+Cáceres,Álava,433.2399445439391
+Cáceres,Ávila,129.34733255630096
+Cádiz,A Coruña,763.616874481958
+Cádiz,Albacete,420.78488733063745
+Cádiz,Alicante/Alacant,512.9911608362811
+Cádiz,Almería,300.02200091655806
+Cádiz,Asturias,752.2749340550904
+Cádiz,Badajoz,234.60847971992357
+Cádiz,Barcelona,874.8885064619278
+Cádiz,Burgos,654.3373987061241
+Cádiz,Cantabria,757.4378403345885
+Cádiz,Castellón/Castelló,621.8904011453657
+Cádiz,Ceuta,86.59408443985033
+Cádiz,Ciudad Real,309.7288057805858
+Cádiz,Cuenca,480.45087598716066
+Cádiz,Cáceres,361.27729499297027
+Cádiz,Cádiz,0.0
+Cádiz,Córdoba,170.18498835513782
+Cádiz,Girona,953.7156296351104
+Cádiz,Granada,214.89920618804172
+Cádiz,Guadalajara,537.1462299238799
+Cádiz,Guipúzcoa,788.5531590454644
+Cádiz,Huelva,148.883681516706
+Cádiz,Huesca,788.2344766357883
+Cádiz,Illes Balears,827.3865716094055
+Cádiz,Jaén,251.830251213865
+Cádiz,La Rioja,692.1336478172042
+Cádiz,León,659.9852696385803
+Cádiz,Lleida,825.5833582301634
+Cádiz,Lugo,733.0627476571428
+Cádiz,Madrid,473.08005210340247
+Cádiz,Melilla,289.21115385566117
+Cádiz,Murcia,418.66965959783573
+Cádiz,Málaga,97.43682434976184
+Cádiz,Navarra,759.2971776684775
+Cádiz,Ourense,649.8065035367325
+Cádiz,Palencia,643.5822677451173
+Cádiz,Pontevedra,687.5731852539925
+Cádiz,Salamanca,467.7472823358014
+Cádiz,Segovia,531.6875315184453
+Cádiz,Sevilla,90.29588291075893
+Cádiz,Soria,628.3706162725474
+Cádiz,Tarragona,769.9015105121601
+Cádiz,Teruel,620.6315071937305
+Cádiz,Toledo,388.20587360893245
+Cádiz,Valencia/València,543.8394485204632
+Cádiz,Valladolid,567.3411558168816
+Cádiz,Vizcaya,782.5295787279397
+Cádiz,Zamora,571.0639059235845
+Cádiz,Zaragoza,672.0117183227231
+Cádiz,Álava,733.7119387255044
+Cádiz,Ávila,453.0085764985181
+Córdoba,A Coruña,661.061201911691
+Córdoba,Albacete,268.84422685564385
+Córdoba,Alicante/Alacant,381.33014301059706
+Córdoba,Almería,220.8184510940637
+Córdoba,Asturias,614.9550159658893
+Córdoba,Badajoz,150.66200936546184
+Córdoba,Barcelona,713.5856324952035
+Córdoba,Burgos,492.057028474729
+Córdoba,Cantabria,599.9294624254575
+Córdoba,Castellón/Castelló,463.3335735624285
+Córdoba,Ceuta,230.62999299365237
+Córdoba,Ciudad Real,139.8546498792737
+Córdoba,Cuenca,312.64126813405755
+Córdoba,Cáceres,244.12048509279148
+Córdoba,Cádiz,170.18498835513782
+Córdoba,Córdoba,9.493529796600342e-05
+Córdoba,Girona,792.0822664833228
+Córdoba,Granada,141.37237776213388
+Córdoba,Guadalajara,367.1917115389452
+Córdoba,Guipúzcoa,621.1527844782795
+Córdoba,Huelva,183.63607152519515
+Córdoba,Huesca,619.2037960916502
+Córdoba,Illes Balears,690.4038492755869
+Córdoba,Jaén,111.45920225700937
+Córdoba,La Rioja,524.7056131992068
+Córdoba,León,521.8286511720975
+Córdoba,Lleida,659.968702886825
+Córdoba,Lugo,616.3619625622619
+Córdoba,Madrid,306.46358085323453
+Córdoba,Melilla,331.9770055711566
+Córdoba,Murcia,299.0217125990366
+Córdoba,Málaga,124.8422030059263
+Córdoba,Navarra,590.0145205403994
+Córdoba,Ourense,544.0501355002835
+Córdoba,Palencia,489.89197411294424
+Córdoba,Pontevedra,594.2586932102247
+Córdoba,Salamanca,338.22955681895553
+Córdoba,Segovia,370.24243131749927
+Córdoba,Sevilla,104.209022643614
+Córdoba,Soria,459.289439823486
+Córdoba,Tarragona,608.1838506341227
+Córdoba,Teruel,454.5365202531824
+Córdoba,Toledo,224.42800170406895
+Córdoba,Valencia/València,395.0853872013878
+Córdoba,Valladolid,416.16708693628965
+Córdoba,Vizcaya,617.9537052979931
+Córdoba,Zamora,435.7296003307259
+Córdoba,Zaragoza,502.09472363628095
+Córdoba,Álava,567.4585230437087
+Córdoba,Ávila,303.2502021706731
+Girona,A Coruña,925.4641997450437
+Girona,Albacete,535.1273532132248
+Girona,Alicante/Alacant,482.97955529000626
+Girona,Almería,709.7744176346368
+Girona,Asturias,726.2757537218899
+Girona,Badajoz,846.7022027237415
+Girona,Barcelona,78.86728532371467
+Girona,Burgos,524.464516705443
+Girona,Cantabria,562.8748879069385
+Girona,Castellón/Castelló,332.58424245196153
+Girona,Ceuta,983.9118251442341
+Girona,Ciudad Real,657.9170410852685
+Girona,Cuenca,484.6400248817745
+Girona,Cáceres,785.9469657784415
+Girona,Cádiz,953.7156296351104
+Girona,Córdoba,792.0822664833228
+Girona,Girona,0.0
+Girona,Granada,763.3124337480565
+Girona,Guadalajara,478.9270491167092
+Girona,Guipúzcoa,419.65520089753494
+Girona,Huelva,956.137443007017
+Girona,Huesca,230.58252096303173
+Girona,Illes Balears,279.4511918432091
+Girona,Jaén,702.9588991195129
+Girona,La Rioja,443.78318987390793
+Girona,León,704.8993323918313
+Girona,Lleida,147.21618787816607
+Girona,Lugo,841.533325558708
+Girona,Madrid,567.5041043534326
+Girona,Melilla,906.9405149599487
+Girona,Murcia,577.1176876696824
+Girona,Málaga,870.5244037207138
+Girona,Navarra,374.96261700345406
+Girona,Ourense,864.8236625867847
+Girona,Palencia,602.020906944315
+Girona,Pontevedra,933.1963025301108
+Girona,Salamanca,741.8536133327582
+Girona,Segovia,574.7280442758554
+Girona,Sevilla,895.6615274251673
+Girona,Soria,440.3881822582779
+Girona,Tarragona,183.97005503808035
+Girona,Teruel,342.11108286357506
+Girona,Toledo,639.6033070402435
+Girona,Valencia/València,421.33990634923924
+Girona,Valladolid,630.4686703343133
+Girona,Vizcaya,472.9563565284508
+Girona,Zamora,714.7127780980505
+Girona,Zaragoza,340.8022866732854
+Girona,Álava,452.40758884879483
+Girona,Ávila,667.5422606872906
+Granada,A Coruña,788.5698224871732
+Granada,Albacete,231.06006188872726
+Granada,Alicante/Alacant,301.8575131435283
+Granada,Almería,88.55164172328506
+Granada,Asturias,720.2524060555396
+Granada,Badajoz,292.03168755169764
+Granada,Barcelona,684.7746747965999
+Granada,Burgos,563.6911439744301
+Granada,Cantabria,678.694053333134
+Granada,Castellón/Castelló,431.87802655715126
+Granada,Ceuta,222.44155516514834
+Granada,Ciudad Real,195.5905239673282
+Granada,Cuenca,323.2373435762481
+Granada,Cáceres,375.5689031929181
+Granada,Cádiz,214.89920618804172
+Granada,Córdoba,141.37237776213388
+Granada,Girona,763.3124337480565
+Granada,Granada,0.0
+Granada,Guadalajara,408.9781119420781
+Granada,Guipúzcoa,671.7136975749978
+Granada,Huelva,302.06981285682394
+Granada,Huesca,624.8073417696071
+Granada,Illes Balears,615.5160356653753
+Granada,Jaén,88.5868903346362
+Granada,La Rioja,577.9879920377628
+Granada,León,628.5169860415674
+Granada,Lleida,646.4547313113475
+Granada,Lugo,737.2125004657319
+Granada,Madrid,374.93092117218913
+Granada,Melilla,214.29148297954424
+Granada,Murcia,205.2739452512651
+Granada,Málaga,118.23415160023556
+Granada,Navarra,630.0642119130581
+Granada,Ourense,671.7514610635923
+Granada,Palencia,578.6083564707538
+Granada,Pontevedra,726.2063214297013
+Granada,Salamanca,458.360837710136
+Granada,Segovia,449.60848760889945
+Granada,Sevilla,206.35446665735765
+Granada,Soria,505.4942006384809
+Granada,Tarragona,582.2086855888713
+Granada,Teruel,448.3874226577122
+Granada,Toledo,310.36286151636506
+Granada,Valencia/València,343.575341920282
+Granada,Valladolid,511.5159985516083
+Granada,Vizcaya,679.223461236134
+Granada,Zamora,547.5843879851308
+Granada,Zaragoza,520.5599625875245
+Granada,Álava,624.3213842798846
+Granada,Ávila,406.6347989978241
+Guadalajara,A Coruña,541.3161745815707
+Guadalajara,Albacete,225.28398865881977
+Guadalajara,Alicante/Alacant,319.01813965547336
+Guadalajara,Almería,408.79438682112124
+Guadalajara,Asturias,390.3142563567164
+Guadalajara,Badajoz,378.5118557726297
+Guadalajara,Barcelona,407.62841771048363
+Guadalajara,Burgos,175.4834171951545
+Guadalajara,Cantabria,291.33205843904415
+Guadalajara,Castellón/Castelló,224.20882305819012
+Guadalajara,Ceuta,593.3495831794813
+Guadalajara,Ciudad Real,229.95736442685538
+Guadalajara,Cuenca,106.42387368306544
+Guadalajara,Cáceres,307.0217348393059
+Guadalajara,Cádiz,537.1462299238799
+Guadalajara,Córdoba,367.1917115389452
+Guadalajara,Girona,478.9270491167092
+Guadalajara,Granada,408.9781119420781
+Guadalajara,Guadalajara,0.0
+Guadalajara,Guipúzcoa,262.7461678510253
+Guadalajara,Huelva,499.30797728463085
+Guadalajara,Huesca,268.44618970212974
+Guadalajara,Illes Balears,496.44768167048744
+Guadalajara,Jaén,322.4705004545783
+Guadalajara,La Rioja,169.7305137862232
+Guadalajara,León,319.3370651773463
+Guadalajara,Lleida,332.79552841948674
+Guadalajara,Lugo,463.828286529006
+Guadalajara,Madrid,88.57711363982284
+Guadalajara,Melilla,614.6862036483562
+Guadalajara,Murcia,336.22828235696835
+Guadalajara,Málaga,478.69838786874965
+Guadalajara,Navarra,224.22921827903764
+Guadalajara,Ourense,446.7706334274478
+Guadalajara,Palencia,225.5627768768464
+Guadalajara,Pontevedra,517.493690798344
+Guadalajara,Salamanca,273.7025027529768
+Guadalajara,Segovia,119.28516453164936
+Guadalajara,Sevilla,460.12059749602156
+Guadalajara,Soria,96.51965550384563
+Guadalajara,Tarragona,311.3444027593942
+Guadalajara,Teruel,156.75012605397458
+Guadalajara,Toledo,166.75031271495604
+Guadalajara,Valencia/València,250.60451548102807
+Guadalajara,Valladolid,199.7230175705978
+Guadalajara,Vizcaya,273.02316592697906
+Guadalajara,Zamora,282.18822187085226
+Guadalajara,Zaragoza,145.61766598916827
+Guadalajara,Álava,216.7993629883514
+Guadalajara,Ávila,192.74919365448514
+Guipúzcoa,A Coruña,510.8316811502312
+Guipúzcoa,Albacete,474.25586570111557
+Guipúzcoa,Alicante/Alacant,532.5532301313582
+Guipúzcoa,Almería,667.3615327465336
+Guipúzcoa,Asturias,308.4628018694735
+Guipúzcoa,Badajoz,598.7336017902716
+Guipúzcoa,Barcelona,381.71450231138334
+Guipúzcoa,Burgos,153.3359397174298
+Guipúzcoa,Cantabria,144.21924539674043
+Guipúzcoa,Castellón/Castelló,371.24470362378884
+Guipúzcoa,Ceuta,850.7634045337476
+Guipúzcoa,Ciudad Real,488.98928891744515
+Guipúzcoa,Cuenca,357.24784690305995
+Guipúzcoa,Cáceres,492.1519888591409
+Guipúzcoa,Cádiz,788.5531590454644
+Guipúzcoa,Córdoba,621.1527844782795
+Guipúzcoa,Girona,419.65520089753494
+Guipúzcoa,Granada,671.7136975749978
+Guipúzcoa,Guadalajara,262.7461678510253
+Guipúzcoa,Guipúzcoa,0.0
+Guipúzcoa,Huelva,727.34327397949
+Guipúzcoa,Huesca,206.94855670962394
+Guipúzcoa,Illes Balears,578.4018405342596
+Guipúzcoa,Jaén,585.0944347048018
+Guipúzcoa,La Rioja,96.46195931992969
+Guipúzcoa,León,302.9477352733839
+Guipúzcoa,Lleida,296.7866199411136
+Guipúzcoa,Lugo,427.75216193994015
+Guipúzcoa,Madrid,315.4822981900254
+Guipúzcoa,Melilla,875.8410345081911
+Guipúzcoa,Murcia,577.9547261430088
+Guipúzcoa,Málaga,737.8834619887332
+Guipúzcoa,Navarra,61.309329128511855
+Guipúzcoa,Ourense,465.599551302687
+Guipúzcoa,Palencia,214.45599843448727
+Guipúzcoa,Pontevedra,529.351780448792
+Guipúzcoa,Salamanca,407.53924459149255
+Guipúzcoa,Segovia,265.85662455406253
+Guipúzcoa,Sevilla,705.7141627710696
+Guipúzcoa,Soria,166.22679964672977
+Guipúzcoa,Tarragona,340.60753608638925
+Guipúzcoa,Teruel,294.4567805801592
+Guipúzcoa,Toledo,401.18642444094985
+Guipúzcoa,Valencia/València,449.9652953320301
+Guipúzcoa,Valladolid,273.8651516894619
+Guipúzcoa,Vizcaya,53.31493107736286
+Guipúzcoa,Zamora,340.87630054465814
+Guipúzcoa,Zaragoza,191.26404912413582
+Guipúzcoa,Álava,58.937384403044675
+Guipúzcoa,Ávila,363.8133345619041
+Huelva,A Coruña,628.3249918771645
+Huelva,Albacete,448.46529324958175
+Huelva,Alicante/Alacant,564.8216163766876
+Huelva,Almería,389.88054230892664
+Huelva,Asturias,640.9749722023996
+Huelva,Badajoz,129.38811256441818
+Huelva,Barcelona,878.7698428498715
+Huelva,Burgos,581.3000163449938
+Huelva,Cantabria,671.9682743534918
+Huelva,Castellón/Castelló,634.7600537800414
+Huelva,Ceuta,233.72728137950037
+Huelva,Ciudad Real,299.9214173530312
+Huelva,Cuenca,471.5028327594588
+Huelva,Cáceres,252.46277625223885
+Huelva,Cádiz,148.883681516706
+Huelva,Córdoba,183.63607152519515
+Huelva,Girona,956.137443007017
+Huelva,Granada,302.06981285682394
+Huelva,Guadalajara,499.30797728463085
+Huelva,Guipúzcoa,727.34327397949
+Huelva,Huelva,0.0
+Huelva,Huesca,765.4597152662914
+Huelva,Illes Balears,872.1658781623328
+Huelva,Jaén,294.84191231515206
+Huelva,La Rioja,633.2649777549613
+Huelva,León,551.7632617119067
+Huelva,Lleida,817.6482176823034
+Huelva,Lugo,606.0000116077599
+Huelva,Madrid,420.16941957564677
+Huelva,Melilla,431.2192770219913
+Huelva,Murcia,481.9481563472933
+Huelva,Málaga,211.0018803303657
+Huelva,Navarra,708.5419383105399
+Huelva,Ourense,517.9654077147743
+Huelva,Palencia,554.9458251281635
+Huelva,Pontevedra,549.2608627461123
+Huelva,Salamanca,359.72548623370363
+Huelva,Segovia,461.7194282746352
+Huelva,Sevilla,96.46647619886828
+Huelva,Soria,579.5854346933235
+Huelva,Tarragona,773.7909799759559
+Huelva,Teruel,614.242338031921
+Huelva,Toledo,334.1146445100828
+Huelva,Valencia/València,574.422652137183
+Huelva,Valladolid,477.9273106621943
+Huelva,Vizcaya,712.0245734941419
+Huelva,Zamora,463.11001440563757
+Huelva,Zaragoza,643.5617251332612
+Huelva,Álava,669.4556674087263
+Huelva,Ávila,368.34878433337343
+Huesca,A Coruña,698.6185253851461
+Huesca,Albacete,397.1224896775938
+Huesca,Alicante/Alacant,403.94626839255034
+Huesca,Almería,593.5423023223175
+Huesca,Asturias,503.07540553619543
+Huesca,Badajoz,646.7176060534897
+Huesca,Barcelona,178.55124476650542
+Huesca,Burgos,294.0931982248497
+Huesca,Cantabria,342.98188408715123
+Huesca,Castellón/Castelló,224.0726095427275
+Huesca,Ceuta,833.2281468547216
+Huesca,Ciudad Real,479.50461589626934
+Huesca,Cuenca,308.3870600319375
+Huesca,Cáceres,570.6642360320928
+Huesca,Cádiz,788.2344766357883
+Huesca,Córdoba,619.2037960916502
+Huesca,Girona,230.58252096303173
+Huesca,Granada,624.8073417696071
+Huesca,Guadalajara,268.44618970212974
+Huesca,Guipúzcoa,206.94855670962394
+Huesca,Huelva,765.4597152662914
+Huesca,Huesca,0.0
+Huesca,Illes Balears,375.9728904264055
+Huesca,Jaén,549.1856045517742
+Huesca,La Rioja,213.90914290213342
+Huesca,León,475.50175517756196
+Huesca,Lleida,91.63636073601904
+Huesca,Lugo,614.6102382998951
+Huesca,Madrid,354.7383421076608
+Huesca,Melilla,804.1085854354211
+Huesca,Murcia,476.55150175136765
+Huesca,Málaga,716.9076884153479
+Huesca,Navarra,152.3372880432223
+Huesca,Ourense,634.5471070447768
+Huesca,Palencia,371.83653908821964
+Huesca,Pontevedra,703.2697058443401
+Huesca,Salamanca,516.6533917183782
+Huesca,Segovia,349.79732728326326
+Huesca,Sevilla,718.414085168687
+Huesca,Soria,212.97100547763787
+Huesca,Tarragona,138.7148480122711
+Huesca,Teruel,177.62006319602
+Huesca,Toledo,435.0661256236332
+Huesca,Valencia/València,321.9221839842757
+Huesca,Valladolid,400.7861689403593
+Huesca,Vizcaya,258.61649820983223
+Huesca,Zamora,484.4288542765708
+Huesca,Zaragoza,122.83527382327583
+Huesca,Álava,227.66145184304463
+Huesca,Ávila,446.7452090030214
+Illes Balears,A Coruña,1026.9291152374224
+Illes Balears,Albacete,424.24270001909275
+Illes Balears,Alicante/Alacant,314.3969657958943
+Illes Balears,Almería,540.7734804903396
+Illes Balears,Asturias,849.0897559981222
+Illes Balears,Badajoz,789.5170170106222
+Illes Balears,Barcelona,241.2074253482445
+Illes Balears,Burgos,620.7851404711256
+Illes Balears,Cantabria,701.6096561969264
+Illes Balears,Castellón/Castelló,273.69000349186916
+Illes Balears,Ceuta,834.6183195021131
+Illes Balears,Ciudad Real,581.762051002775
+Illes Balears,Cuenca,441.44759278781316
+Illes Balears,Cáceres,771.2395835467089
+Illes Balears,Cádiz,827.3865716094055
+Illes Balears,Córdoba,690.4038492755869
+Illes Balears,Girona,279.4511918432091
+Illes Balears,Granada,615.5160356653753
+Illes Balears,Guadalajara,496.44768167048744
+Illes Balears,Guipúzcoa,578.4018405342596
+Illes Balears,Huelva,872.1658781623328
+Illes Balears,Huesca,375.9728904264055
+Illes Balears,Illes Balears,0.0
+Illes Balears,Jaén,582.9371851560327
+Illes Balears,La Rioja,554.8181703670263
+Illes Balears,León,798.8716577373349
+Illes Balears,Lleida,298.71699694915674
+Illes Balears,Lugo,945.2562795610107
+Illes Balears,Madrid,572.5177642029075
+Illes Balears,Melilla,706.5974671121988
+Illes Balears,Murcia,410.3442851031562
+Illes Balears,Málaga,733.0571339518849
+Illes Balears,Navarra,518.9105555995642
+Illes Balears,Ourense,940.6180908880792
+Illes Balears,Palencia,694.4067042566754
+Illes Balears,Pontevedra,1011.6088858957842
+Illes Balears,Salamanca,765.5466385400418
+Illes Balears,Segovia,614.9404572881823
+Illes Balears,Sevilla,792.0622813020316
+Illes Balears,Soria,512.8286311379519
+Illes Balears,Tarragona,238.12633790399298
+Illes Balears,Teruel,342.5140117256312
+Illes Balears,Toledo,614.7082466339069
+Illes Balears,Valencia/València,300.00704185641354
+Illes Balears,Valladolid,691.5355244621326
+Illes Balears,Vizcaya,626.8910014650954
+Illes Balears,Zamora,776.6956011368261
+Illes Balears,Zaragoza,415.07412529584724
+Illes Balears,Álava,584.9169150480524
+Illes Balears,Ávila,681.4200276314981
+Jaén,A Coruña,712.1737192580991
+Jaén,Albacete,168.95698197480243
+Jaén,Alicante/Alacant,271.27371722344895
+Jaén,Almería,130.28230040373987
+Jaén,Asturias,634.6846788358762
+Jaén,Badajoz,247.2125043826118
+Jaén,Barcelona,624.0918149973248
+Jaén,Burgos,475.12432431050104
+Jaén,Cantabria,590.122299728649
+Jaén,Castellón/Castelló,370.59030293473523
+Jaén,Ceuta,284.72138302407416
+Jaén,Ciudad Real,108.01165174645014
+Jaén,Cuenca,242.60125948268737
+Jaén,Cáceres,307.0470134124713
+Jaén,Cádiz,251.830251213865
+Jaén,Córdoba,111.45920225700937
+Jaén,Girona,702.9588991195129
+Jaén,Granada,88.5868903346362
+Jaén,Guadalajara,322.4705004545783
+Jaén,Guipúzcoa,585.0944347048018
+Jaén,Huelva,294.84191231515206
+Jaén,Huesca,549.1856045517742
+Jaén,Illes Balears,582.9371851560327
+Jaén,Jaén,0.0
+Jaén,La Rioja,490.73896378867295
+Jaén,León,543.6393520198825
+Jaén,Lleida,578.4310106196491
+Jaén,Lugo,657.0870203358315
+Jaén,Madrid,286.3606521701906
+Jaén,Melilla,302.1019044414757
+Jaén,Murcia,187.62351323262385
+Jaén,Málaga,168.92600401473547
+Jaén,Navarra,545.0943247163763
+Jaén,Ourense,596.106119145945
+Jaén,Palencia,490.70826484156606
+Jaén,Pontevedra,653.7682563536093
+Jaén,Salamanca,380.1002350871122
+Jaén,Segovia,361.29224328871106
+Jaén,Sevilla,209.3934413174892
+Jaén,Soria,418.9214054927409
+Jaén,Tarragona,519.5218187803519
+Jaén,Teruel,375.6597216424288
+Jaén,Toledo,223.93740355949274
+Jaén,Valencia/València,292.75827894094334
+Jaén,Valladolid,424.75008043431677
+Jaén,Vizcaya,591.3513906050342
+Jaén,Zamora,464.7813891791123
+Jaén,Zaragoza,440.1422723258944
+Jaén,Álava,536.7823833559063
+Jaén,Ávila,322.5842234162392
+La Rioja,A Coruña,486.08615797568416
+La Rioja,Albacete,388.8776977979838
+La Rioja,Alicante/Alacant,461.08917532769374
+La Rioja,Almería,577.8313048489778
+La Rioja,Asturias,295.97994157647236
+La Rioja,Badajoz,505.2680309036255
+La Rioja,Barcelona,390.8808397959197
+La Rioja,Burgos,81.3970414147037
+La Rioja,Cantabria,149.75363010821587
+La Rioja,Castellón/Castelló,316.28990193098355
+La Rioja,Ceuta,754.4162428157942
+La Rioja,Ciudad Real,393.1176559005777
+La Rioja,Cuenca,269.77112357765213
+La Rioja,Cáceres,403.3645775110216
+La Rioja,Cádiz,692.1336478172042
+La Rioja,Córdoba,524.7056131992068
+La Rioja,Girona,443.78318987390793
+La Rioja,Granada,577.9879920377628
+La Rioja,Guadalajara,169.7305137862232
+La Rioja,Guipúzcoa,96.46195931992969
+La Rioja,Huelva,633.2649777549613
+La Rioja,Huesca,213.90914290213342
+La Rioja,Illes Balears,554.8181703670263
+La Rioja,Jaén,490.73896378867295
+La Rioja,La Rioja,0.0
+La Rioja,León,261.6140967775421
+La Rioja,Lleida,303.94849137673515
+La Rioja,Lugo,402.2062368410959
+La Rioja,Madrid,219.09929693050876
+La Rioja,Melilla,784.4096006171874
+La Rioja,Murcia,496.32168836185116
+La Rioja,Málaga,641.7905841282037
+La Rioja,Navarra,82.3705625750714
+La Rioja,Ourense,421.08817685448895
+La Rioja,Palencia,158.29443052811635
+La Rioja,Pontevedra,489.4652931824735
+La Rioja,Salamanca,326.8601254270448
+La Rioja,Segovia,173.71526702107775
+La Rioja,Sevilla,609.5751823887509
+La Rioja,Soria,74.78063489299232
+La Rioja,Tarragona,325.3883684588538
+La Rioja,Teruel,235.29184692561694
+La Rioja,Toledo,305.0644628728677
+La Rioja,Valencia/València,381.55385062191624
+La Rioja,Valladolid,197.98629357039013
+La Rioja,Vizcaya,104.53225565551553
+La Rioja,Zamora,276.2902100638942
+La Rioja,Zaragoza,140.93643321360327
+La Rioja,Álava,47.51173739741611
+La Rioja,Ávila,274.0660980476307
+León,A Coruña,228.31017038386722
+León,Albacete,520.8907271653172
+León,Alicante/Alacant,633.4923118660324
+León,Almería,664.2159199238479
+León,Asturias,93.15015341526089
+León,Badajoz,429.5273922052717
+León,Barcelona,652.1846779109355
+León,Burgos,183.09523676526652
+León,Cantabria,171.57062069854595
+León,Castellón/Castelló,536.239874245198
+León,Ceuta,739.7927571526417
+León,Ciudad Real,436.42973750385875
+León,Cuenca,415.25775422928916
+León,Cáceres,301.1709790029076
+León,Cádiz,659.9852696385803
+León,Córdoba,521.8286511720975
+León,Girona,704.8993323918313
+León,Granada,628.5169860415674
+León,Guadalajara,319.3370651773463
+León,Guipúzcoa,302.9477352733839
+León,Huelva,551.7632617119067
+León,Huesca,475.50175517756196
+León,Illes Balears,798.8716577373349
+León,Jaén,543.6393520198825
+León,La Rioja,261.6140967775421
+León,León,0.0
+León,Lleida,565.4023510313281
+León,Lugo,146.55551248898072
+León,Madrid,281.4889914280412
+León,Melilla,841.8038094804008
+León,Murcia,631.4620001322744
+León,Málaga,646.035036828725
+León,Navarra,332.6251693902144
+León,Ourense,162.801972442873
+León,Palencia,105.66769446594945
+León,Pontevedra,228.74844641268822
+León,Salamanca,193.16696014917838
+León,Segovia,207.81865520281522
+León,Sevilla,569.68973355309
+León,Soria,286.5144436122829
+León,Tarragona,580.6928176329028
+León,Teruel,458.8522450267597
+León,Toledo,320.2077661855937
+León,Valencia/València,569.5477991382039
+León,Valladolid,126.4419267573378
+León,Vizcaya,256.6527828058763
+León,Zamora,89.17747385424111
+León,Zaragoza,388.4037884374915
+León,Álava,256.05739668293023
+León,Ávila,222.01998261070838
+Lleida,A Coruña,789.5850987410006
+Lleida,Albacete,415.39797393651577
+Lleida,Alicante/Alacant,391.9305515099389
+Lleida,Almería,603.4135544069525
+Lleida,Asturias,594.6758918934775
+Lleida,Badajoz,704.6584938107069
+Lleida,Barcelona,87.08934193532046
+Lleida,Burgos,383.0154054021804
+Lleida,Cantabria,434.49627667782613
+Lleida,Castellón/Castelló,218.64969645764893
+Lleida,Ceuta,862.6924639686661
+Lleida,Ciudad Real,522.669790862499
+Lleida,Cuenca,348.1428735823681
+Lleida,Cáceres,639.6874328652494
+Lleida,Cádiz,825.5833582301634
+Lleida,Córdoba,659.968702886825
+Lleida,Girona,147.21618787816607
+Lleida,Granada,646.4547313113475
+Lleida,Guadalajara,332.79552841948674
+Lleida,Guipúzcoa,296.7866199411136
+Lleida,Huelva,817.6482176823034
+Lleida,Huesca,91.63636073601904
+Lleida,Illes Balears,298.71699694915674
+Lleida,Jaén,578.4310106196491
+Lleida,La Rioja,303.94849137673515
+Lleida,León,565.4023510313281
+Lleida,Lleida,0.0
+Lleida,Lugo,705.6005130032408
+Lleida,Madrid,421.30655414633287
+Lleida,Melilla,809.4599728099628
+Lleida,Murcia,476.81412772864473
+Lleida,Málaga,747.3360100787277
+Lleida,Navarra,243.78579532566454
+Lleida,Ourense,723.1417195097324
+Lleida,Palencia,460.9660745495642
+Lleida,Pontevedra,792.3923422148348
+Lleida,Salamanca,594.702672516986
+Lleida,Segovia,427.6298124298593
+Lleida,Sevilla,762.2527408396091
+Lleida,Soria,294.10464070124834
+Lleida,Tarragona,80.49377760183505
+Lleida,Teruel,205.43851658833347
+Lleida,Toledo,495.5289548381602
+Lleida,Valencia/València,317.07894671746385
+Lleida,Valladolid,485.0322232817826
+Lleida,Vizcaya,349.1420104094335
+Lleida,Zamora,570.0057063819428
+Lleida,Zaragoza,193.608287062428
+Lleida,Álava,319.28859672744727
+Lleida,Ávila,520.4158634791828
+Lugo,A Coruña,84.0125834878527
+Lugo,Albacete,655.9349743416293
+Lugo,Alicante/Alacant,773.7349531707551
+Lugo,Almería,783.2460869711347
+Lugo,Asturias,123.82952264560862
+Lugo,Badajoz,498.62658301682967
+Lugo,Barcelona,792.6702526822639
+Lugo,Burgos,326.92859642953283
+Lugo,Cantabria,284.5952261364657
+Lugo,Castellón/Castelló,682.5489442831728
+Lugo,Ceuta,817.4342653030882
+Lugo,Ciudad Real,553.5610705689553
+Lugo,Cuenca,555.9501660214576
+Lugo,Cáceres,375.63842481823514
+Lugo,Cádiz,733.0627476571428
+Lugo,Córdoba,616.3619625622619
+Lugo,Girona,841.533325558708
+Lugo,Granada,737.2125004657319
+Lugo,Guadalajara,463.828286529006
+Lugo,Guipúzcoa,427.75216193994015
+Lugo,Huelva,606.0000116077599
+Lugo,Huesca,614.6102382998951
+Lugo,Illes Balears,945.2562795610107
+Lugo,Jaén,657.0870203358315
+Lugo,La Rioja,402.2062368410959
+Lugo,León,146.55551248898072
+Lugo,Lleida,705.6005130032408
+Lugo,Lugo,0.0
+Lugo,Madrid,417.4231029430664
+Lugo,Melilla,946.0320240043939
+Lugo,Murcia,764.3168046475034
+Lugo,Málaga,736.2230545978879
+Lugo,Navarra,466.62948648329603
+Lugo,Ourense,94.83466132397685
+Lugo,Palencia,251.0771106324591
+Lugo,Pontevedra,119.46616522208699
+Lugo,Salamanca,279.25801327722
+Lugo,Segovia,348.590058859955
+Lugo,Sevilla,644.44009986273
+Lugo,Soria,432.5994477530798
+Lugo,Tarragona,725.0715390542616
+Lugo,Teruel,605.3939626818359
+Lugo,Toledo,440.34816681171924
+Lugo,Valencia/València,712.8691411975814
+Lugo,Valladolid,265.8084759199056
+Lugo,Vizcaya,376.47202506357945
+Lugo,Zamora,196.44173538120575
+Lugo,Zaragoza,533.5391627013022
+Lugo,Álava,389.1464627001912
+Lugo,Ávila,338.0481554065099
+Madrid,A Coruña,488.97892020404714
+Madrid,Albacete,239.52953838727746
+Madrid,Alicante/Alacant,357.23324843642746
+Madrid,Almería,393.65424622127784
+Madrid,Asturias,365.04676646138654
+Madrid,Badajoz,295.6587729539193
+Madrid,Barcelona,495.98627037017076
+Madrid,Burgos,189.50235884251163
+Madrid,Cantabria,303.7631724142283
+Madrid,Castellón/Castelló,298.8956171037684
+Madrid,Ceuta,536.86617127944
+Madrid,Ciudad Real,181.17286167545794
+Madrid,Cuenca,142.19839832331527
+Madrid,Cáceres,218.4452411503547
+Madrid,Cádiz,473.08005210340247
+Madrid,Córdoba,306.46358085323453
+Madrid,Girona,567.5041043534326
+Madrid,Granada,374.93092117218913
+Madrid,Guadalajara,88.57711363982284
+Madrid,Guipúzcoa,315.4822981900254
+Madrid,Huelva,420.16941957564677
+Madrid,Huesca,354.7383421076608
+Madrid,Illes Balears,572.5177642029075
+Madrid,Jaén,286.3606521701906
+Madrid,La Rioja,219.09929693050876
+Madrid,León,281.4889914280412
+Madrid,Lleida,421.30655414633287
+Madrid,Lugo,417.4231029430664
+Madrid,Madrid,0.0
+Madrid,Melilla,587.8758639633505
+Madrid,Murcia,350.0066155360908
+Madrid,Málaga,426.04019397043885
+Madrid,Navarra,289.59993188726855
+Madrid,Ourense,385.34484995071995
+Madrid,Palencia,208.69516253687374
+Madrid,Pontevedra,454.4893237526313
+Madrid,Salamanca,193.04705323719446
+Madrid,Segovia,77.79601307980043
+Madrid,Sevilla,390.7424524584402
+Madrid,Soria,159.5409721725658
+Madrid,Tarragona,398.5682508509249
+Madrid,Teruel,240.25063361711082
+Madrid,Toledo,86.84729134333953
+Madrid,Valencia/València,302.9578741102647
+Madrid,Valladolid,155.05759728017512
+Madrid,Vizcaya,311.85693616571956
+Madrid,Zamora,224.0044229393228
+Madrid,Zaragoza,232.20888442867638
+Madrid,Álava,261.03017359754443
+Madrid,Ávila,109.01946583996076
+Melilla,A Coruña,992.9067045016762
+Melilla,Albacete,409.9350780921847
+Melilla,Alicante/Alacant,423.98665224971626
+Melilla,Almería,211.56208008586796
+Melilla,Asturias,933.9036167406285
+Melilla,Badajoz,472.3215124422349
+Melilla,Barcelona,831.3951606418183
+Melilla,Burgos,775.55051214488
+Melilla,Cantabria,891.3838243030291
+Melilla,Castellón/Castelló,590.9972524610816
+Melilla,Ceuta,224.9476382829372
+Melilla,Ciudad Real,409.77590822865676
+Melilla,Cuenca,519.9707612992313
+Melilla,Cáceres,576.0793817745393
+Melilla,Cádiz,289.21115385566117
+Melilla,Córdoba,331.9770055711566
+Melilla,Girona,906.9405149599487
+Melilla,Granada,214.29148297954424
+Melilla,Guadalajara,614.6862036483562
+Melilla,Guipúzcoa,875.8410345081911
+Melilla,Huelva,431.2192770219913
+Melilla,Huesca,804.1085854354211
+Melilla,Illes Balears,706.5974671121988
+Melilla,Jaén,302.1019044414757
+Melilla,La Rioja,784.4096006171874
+Melilla,León,841.8038094804008
+Melilla,Lleida,809.4599728099628
+Melilla,Lugo,946.0320240043939
+Melilla,Madrid,587.8758639633505
+Melilla,Melilla,0.0
+Melilla,Murcia,332.79050981460915
+Melilla,Málaga,226.69791471764904
+Melilla,Navarra,830.08311383228
+Melilla,Ourense,875.8619617359278
+Melilla,Palencia,792.7569037467217
+Melilla,Pontevedra,925.9854916396714
+Melilla,Salamanca,666.8198183386414
+Melilla,Segovia,663.3457280732439
+Melilla,Sevilla,343.29856975470216
+Melilla,Soria,710.5066402966476
+Melilla,Tarragona,736.5172943505736
+Melilla,Teruel,627.0083727492404
+Melilla,Toledo,524.5971657062921
+Melilla,Valencia/València,492.524711131926
+Melilla,Valladolid,725.7507105975232
+Melilla,Vizcaya,887.318647840555
+Melilla,Zamora,759.489679530845
+Melilla,Zaragoza,711.8331283229193
+Melilla,Álava,831.4416184930258
+Melilla,Ávila,619.7838331000082
+Murcia,A Coruña,831.0857605407799
+Murcia,Albacete,112.07577897479241
+Murcia,Alicante/Alacant,98.40671938021761
+Murcia,Almería,134.4714460202943
+Murcia,Asturias,714.0137250424285
+Murcia,Badajoz,428.1486498970866
+Murcia,Barcelona,500.39053302687904
+Murcia,Burgos,511.49922075132173
+Murcia,Cantabria,627.5334227773585
+Murcia,Castellón/Castelló,258.6922182472175
+Murcia,Ceuta,424.94314534805955
+Murcia,Ciudad Real,236.95078100833314
+Murcia,Cuenca,229.86776720832341
+Murcia,Cáceres,460.62576417935975
+Murcia,Cádiz,418.66965959783573
+Murcia,Córdoba,299.0217125990366
+Murcia,Girona,577.1176876696824
+Murcia,Granada,205.2739452512651
+Murcia,Guadalajara,336.22828235696835
+Murcia,Guipúzcoa,577.9547261430088
+Murcia,Huelva,481.9481563472933
+Murcia,Huesca,476.55150175136765
+Murcia,Illes Balears,410.3442851031562
+Murcia,Jaén,187.62351323262385
+Murcia,La Rioja,496.32168836185116
+Murcia,León,631.4620001322744
+Murcia,Lleida,476.81412772864473
+Murcia,Lugo,764.3168046475034
+Murcia,Madrid,350.0066155360908
+Murcia,Melilla,332.79050981460915
+Murcia,Murcia,9.493529796600342e-05
+Murcia,Málaga,323.18751884737765
+Murcia,Navarra,524.8246637142425
+Murcia,Ourense,720.4243920392696
+Murcia,Palencia,552.9573690713355
+Murcia,Pontevedra,785.1973560267476
+Murcia,Salamanca,506.2243092201797
+Murcia,Segovia,425.6801352504435
+Murcia,Sevilla,393.26778003907265
+Murcia,Soria,422.1979133816216
+Murcia,Tarragona,403.8673324838495
+Murcia,Teruel,302.647539827789
+Murcia,Toledo,330.53872291554245
+Murcia,Valencia/València,159.76311828023844
+Murcia,Valladolid,505.05521996827105
+Murcia,Vizcaya,600.5741717397782
+Murcia,Zamora,568.149769108665
+Murcia,Zaragoza,397.07190613626625
+Murcia,Álava,543.5120634010259
+Murcia,Ávila,430.369707670748
+Málaga,A Coruña,776.6264249872139
+Málaga,Albacete,335.4102740916116
+Málaga,Alicante/Alacant,418.8902550293783
+Málaga,Almería,202.58579186575844
+Málaga,Asturias,739.1848648844888
+Málaga,Badajoz,248.087784908259
+Málaga,Barcelona,791.6848396685734
+Málaga,Burgos,613.8814362453285
+Málaga,Cantabria,723.4185744906725
+Málaga,Castellón/Castelló,537.9405823539207
+Málaga,Ceuta,116.3439868034899
+Málaga,Ciudad Real,249.1179478644301
+Málaga,Cuenca,408.94517318562123
+Málaga,Cáceres,360.98892009463395
+Málaga,Cádiz,97.43682434976184
+Málaga,Córdoba,124.8422030059263
+Málaga,Girona,870.5244037207138
+Málaga,Granada,118.23415160023556
+Málaga,Guadalajara,478.69838786874965
+Málaga,Guipúzcoa,737.8834619887332
+Málaga,Huelva,211.0018803303657
+Málaga,Huesca,716.9076884153479
+Málaga,Illes Balears,733.0571339518849
+Málaga,Jaén,168.92600401473547
+Málaga,La Rioja,641.7905841282037
+Málaga,León,646.035036828725
+Málaga,Lleida,747.3360100787277
+Málaga,Lugo,736.2230545978879
+Málaga,Madrid,426.04019397043885
+Málaga,Melilla,226.69791471764904
+Málaga,Murcia,323.18751884737765
+Málaga,Málaga,0.0
+Málaga,Navarra,702.9226828496943
+Málaga,Ourense,660.1475097274131
+Málaga,Palencia,614.3540934183495
+Málaga,Pontevedra,706.0984485984919
+Málaga,Salamanca,460.10127026548173
+Málaga,Segovia,492.97430022591755
+Málaga,Sevilla,117.91436259318276
+Málaga,Soria,573.502541125443
+Málaga,Tarragona,687.5579292006015
+Málaga,Teruel,544.4223251670088
+Málaga,Toledo,347.0317734740248
+Málaga,Valencia/València,454.9885033765433
+Málaga,Valladolid,540.9437197518122
+Málaga,Vizcaya,737.8132489392266
+Málaga,Zamora,559.3130473517688
+Málaga,Zaragoza,605.2066118047018
+Málaga,Álava,685.8705166559402
+Málaga,Ávila,428.0832826192985
+Navarra,A Coruña,550.526986143243
+Navarra,Albacete,424.18099399399676
+Navarra,Alicante/Alacant,475.14000524653153
+Navarra,Almería,619.9666701909184
+Navarra,Asturias,352.0903475634045
+Navarra,Badajoz,581.7335572317153
+Navarra,Barcelona,330.2554590869636
+Navarra,Burgos,160.75284589399553
+Navarra,Cantabria,190.71677583213437
+Navarra,Castellón/Castelló,310.84572656253687
+Navarra,Ceuta,817.4125759877357
+Navarra,Ciudad Real,454.048362666646
+Navarra,Cuenca,310.1138473996149
+Navarra,Cáceres,483.8247872263271
+Navarra,Cádiz,759.2971776684775
+Navarra,Córdoba,590.0145205403994
+Navarra,Girona,374.96261700345406
+Navarra,Granada,630.0642119130581
+Navarra,Guadalajara,224.22921827903764
+Navarra,Guipúzcoa,61.309329128511855
+Navarra,Huelva,708.5419383105399
+Navarra,Huesca,152.3372880432223
+Navarra,Illes Balears,518.9105555995642
+Navarra,Jaén,545.0943247163763
+Navarra,La Rioja,82.3705625750714
+Navarra,León,332.6251693902144
+Navarra,Lleida,243.78579532566454
+Navarra,Lugo,466.62948648329603
+Navarra,Madrid,289.59993188726855
+Navarra,Melilla,830.08311383228
+Navarra,Murcia,524.8246637142425
+Navarra,Málaga,702.9226828496943
+Navarra,Navarra,0.0
+Navarra,Ourense,494.69134427999137
+Navarra,Palencia,234.00484700730314
+Navarra,Pontevedra,561.3453423097036
+Navarra,Salamanca,409.20841623552207
+Navarra,Segovia,253.4310997995212
+Navarra,Sevilla,679.3762370281212
+Navarra,Soria,131.00503426007083
+Navarra,Tarragona,281.78727912773627
+Navarra,Teruel,235.3146546579164
+Navarra,Toledo,376.447198151104
+Navarra,Valencia/València,391.9695090680324
+Navarra,Valladolid,279.9277965156687
+Navarra,Vizcaya,108.12407762870343
+Navarra,Zamora,356.22156007887116
+Navarra,Zaragoza,132.17318960080786
+Navarra,Álava,77.49379401672793
+Navarra,Ávila,354.50385650071786
+Ourense,A Coruña,117.05796957069504
+Ourense,Albacete,616.4169813650426
+Ourense,Alicante/Alacant,741.1208961608029
+Ourense,Almería,725.0288195522353
+Ourense,Asturias,190.82939801538046
+Ourense,Badajoz,416.93836003373093
+Ourense,Barcelona,809.3182761558047
+Ourense,Burgos,340.4563142602535
+Ourense,Cantabria,330.23604195763954
+Ourense,Castellón/Castelló,670.6717360249255
+Ourense,Ceuta,735.2454429182588
+Ourense,Ciudad Real,497.465487336096
+Ourense,Cuenca,527.4590828965373
+Ourense,Cáceres,300.05658754329664
+Ourense,Cádiz,649.8065035367325
+Ourense,Córdoba,544.0501355002835
+Ourense,Girona,864.8236625867847
+Ourense,Granada,671.7514610635923
+Ourense,Guadalajara,446.7706334274478
+Ourense,Guipúzcoa,465.599551302687
+Ourense,Huelva,517.9654077147743
+Ourense,Huesca,634.5471070447768
+Ourense,Illes Balears,940.6180908880792
+Ourense,Jaén,596.106119145945
+Ourense,La Rioja,421.08817685448895
+Ourense,León,162.801972442873
+Ourense,Lleida,723.1417195097324
+Ourense,Lugo,94.83466132397685
+Ourense,Madrid,385.34484995071995
+Ourense,Melilla,875.8619617359278
+Ourense,Murcia,720.4243920392696
+Ourense,Málaga,660.1475097274131
+Ourense,Navarra,494.69134427999137
+Ourense,Ourense,9.493529796600342e-05
+Ourense,Palencia,262.8068645653407
+Ourense,Pontevedra,70.99995488690868
+Ourense,Salamanca,217.0674052819212
+Ourense,Segovia,327.5187516005282
+Ourense,Sevilla,562.6729707478379
+Ourense,Soria,435.5827720219704
+Ourense,Tarragona,732.2682329898743
+Ourense,Teruel,598.1044767891782
+Ourense,Toledo,390.3132262697303
+Ourense,Valencia/València,687.8921916921284
+Ourense,Valladolid,249.09097824440934
+Ourense,Vizcaya,418.36185508392026
+Ourense,Zamora,164.5836419440619
+Ourense,Zaragoza,539.6003926837201
+Ourense,Álava,418.5787743031128
+Ourense,Ávila,290.31067266763
+Palencia,A Coruña,333.70161334432385
+Palencia,Albacete,440.94046215918155
+Palencia,Alicante/Alacant,544.3003685972175
+Palencia,Almería,602.1930289462191
+Palencia,Asturias,164.78150519275627
+Palencia,Badajoz,426.43106785824637
+Palencia,Barcelona,547.5127715951677
+Palencia,Burgos,77.96128958786805
+Palencia,Cantabria,117.19068609062401
+Palencia,Castellón/Castelló,434.92768191209774
+Palencia,Ceuta,717.4182493282867
+Palencia,Ciudad Real,383.0189987633987
+Palencia,Cuenca,327.9736001154983
+Palencia,Cáceres,304.85609015917873
+Palencia,Cádiz,643.5822677451173
+Palencia,Córdoba,489.89197411294424
+Palencia,Girona,602.020906944315
+Palencia,Granada,578.6083564707538
+Palencia,Guadalajara,225.5627768768464
+Palencia,Guipúzcoa,214.45599843448727
+Palencia,Huelva,554.9458251281635
+Palencia,Huesca,371.83653908821964
+Palencia,Illes Balears,694.4067042566754
+Palencia,Jaén,490.70826484156606
+Palencia,La Rioja,158.29443052811635
+Palencia,León,105.66769446594945
+Palencia,Lleida,460.9660745495642
+Palencia,Lugo,251.0771106324591
+Palencia,Madrid,208.69516253687374
+Palencia,Melilla,792.7569037467217
+Palencia,Murcia,552.9573690713355
+Palencia,Málaga,614.3540934183495
+Palencia,Navarra,234.00484700730314
+Palencia,Ourense,262.8068645653407
+Palencia,Palencia,0.0
+Palencia,Pontevedra,331.490730600976
+Palencia,Salamanca,205.5916932277935
+Palencia,Segovia,130.98889129221132
+Palencia,Sevilla,554.6794975388946
+Palencia,Soria,181.5963022310127
+Palencia,Tarragona,475.02512964001113
+Palencia,Teruel,356.1594503775997
+Palencia,Toledo,270.0085238252275
+Palencia,Valencia/València,475.4888390856392
+Palencia,Valladolid,77.15849722461773
+Palencia,Vizcaya,177.06752260621965
+Palencia,Zamora,126.5981294032376
+Palencia,Zaragoza,282.8008218782055
+Palencia,Álava,160.70713866292962
+Palencia,Ávila,190.71039970544544
+Pontevedra,A Coruña,84.57042882087856
+Pontevedra,Albacete,682.8866672904047
+Pontevedra,Alicante/Alacant,809.0340950917657
+Pontevedra,Almería,783.5801818084049
+Pontevedra,Asturias,238.59607981988063
+Pontevedra,Badajoz,459.1693454889248
+Pontevedra,Barcelona,878.7924291526009
+Pontevedra,Burgos,409.3992478605222
+Pontevedra,Cantabria,390.371021037517
+Pontevedra,Castellón/Castelló,741.497750934138
+Pontevedra,Ceuta,773.8968753699056
+Pontevedra,Ciudad Real,558.351232905159
+Pontevedra,Cuenca,596.6875680553642
+Pontevedra,Cáceres,350.99697273453967
+Pontevedra,Cádiz,687.5731852539925
+Pontevedra,Córdoba,594.2586932102247
+Pontevedra,Girona,933.1963025301108
+Pontevedra,Granada,726.2063214297013
+Pontevedra,Guadalajara,517.493690798344
+Pontevedra,Guipúzcoa,529.351780448792
+Pontevedra,Huelva,549.2608627461123
+Pontevedra,Huesca,703.2697058443401
+Pontevedra,Illes Balears,1011.6088858957842
+Pontevedra,Jaén,653.7682563536093
+Pontevedra,La Rioja,489.4652931824735
+Pontevedra,León,228.74844641268822
+Pontevedra,Lleida,792.3923422148348
+Pontevedra,Lugo,119.46616522208699
+Pontevedra,Madrid,454.4893237526313
+Pontevedra,Melilla,925.9854916396714
+Pontevedra,Murcia,785.1973560267476
+Pontevedra,Málaga,706.0984485984919
+Pontevedra,Navarra,561.3453423097036
+Pontevedra,Ourense,70.99995488690868
+Pontevedra,Palencia,331.490730600976
+Pontevedra,Pontevedra,0.0
+Pontevedra,Salamanca,279.2449420396311
+Pontevedra,Segovia,398.2125304644414
+Pontevedra,Sevilla,603.0846408746827
+Pontevedra,Soria,506.12240393069214
+Pontevedra,Tarragona,802.7805860276966
+Pontevedra,Teruel,669.0963494227722
+Pontevedra,Toledo,454.65910394259396
+Pontevedra,Valencia/València,757.3598443935183
+Pontevedra,Valladolid,320.08838650601024
+Pontevedra,Vizcaya,480.509263691817
+Pontevedra,Zamora,235.344672602038
+Pontevedra,Zaragoza,610.0362836167837
+Pontevedra,Álava,484.5782842854828
+Pontevedra,Ávila,356.57076931642587
+Salamanca,A Coruña,332.26541196284995
+Salamanca,Albacete,405.9030015051218
+Salamanca,Alicante/Alacant,534.9091506281003
+Salamanca,Almería,508.3537319642854
+Salamanca,Asturias,284.6881391924202
+Salamanca,Badajoz,236.36043247049986
+Salamanca,Barcelona,675.1100858006946
+Salamanca,Burgos,254.30096637069772
+Salamanca,Cantabria,321.3536925675012
+Salamanca,Castellón/Castelló,491.8877146500899
+Salamanca,Ceuta,548.8512497115981
+Salamanca,Ciudad Real,280.39881569752555
+Salamanca,Cuenca,330.76469663051796
+Salamanca,Cáceres,108.04267276640113
+Salamanca,Cádiz,467.7472823358014
+Salamanca,Córdoba,338.22955681895553
+Salamanca,Girona,741.8536133327582
+Salamanca,Granada,458.360837710136
+Salamanca,Guadalajara,273.7025027529768
+Salamanca,Guipúzcoa,407.53924459149255
+Salamanca,Huelva,359.72548623370363
+Salamanca,Huesca,516.6533917183782
+Salamanca,Illes Balears,765.5466385400418
+Salamanca,Jaén,380.1002350871122
+Salamanca,La Rioja,326.8601254270448
+Salamanca,León,193.16696014917838
+Salamanca,Lleida,594.702672516986
+Salamanca,Lugo,279.25801327722
+Salamanca,Madrid,193.04705323719446
+Salamanca,Melilla,666.8198183386414
+Salamanca,Murcia,506.2243092201797
+Salamanca,Málaga,460.10127026548173
+Salamanca,Navarra,409.20841623552207
+Salamanca,Ourense,217.0674052819212
+Salamanca,Palencia,205.5916932277935
+Salamanca,Pontevedra,279.2449420396311
+Salamanca,Salamanca,0.0
+Salamanca,Segovia,167.2043345364352
+Salamanca,Sevilla,377.5069732754539
+Salamanca,Soria,303.7604042262748
+Salamanca,Tarragona,583.2936049059277
+Salamanca,Teruel,430.20048227420494
+Salamanca,Toledo,175.89236607296766
+Salamanca,Valencia/València,490.64093827793437
+Salamanca,Valladolid,134.21258716545242
+Salamanca,Vizcaya,378.5555173390394
+Salamanca,Zamora,104.0015455118768
+Salamanca,Zaragoza,401.1093326633351
+Salamanca,Álava,349.1199393883089
+Salamanca,Ávila,84.57836839531574
+Segovia,A Coruña,423.9999480393233
+Segovia,Albacete,314.25856838407987
+Segovia,Alicante/Alacant,425.9335888610772
+Segovia,Almería,471.2104934869391
+Segovia,Asturias,288.3702011513299
+Segovia,Badajoz,332.91051221355315
+Segovia,Barcelona,508.7358501068759
+Segovia,Burgos,122.65955281084103
+Segovia,Cantabria,230.93274323658216
+Segovia,Castellón/Castelló,343.41876412403906
+Segovia,Ceuta,600.4869607110762
+Segovia,Ciudad Real,254.32032713578593
+Segovia,Cuenca,207.73634717407907
+Segovia,Cáceres,230.43882193321755
+Segovia,Cádiz,531.6875315184453
+Segovia,Córdoba,370.24243131749927
+Segovia,Girona,574.7280442758554
+Segovia,Granada,449.60848760889945
+Segovia,Guadalajara,119.28516453164936
+Segovia,Guipúzcoa,265.85662455406253
+Segovia,Huelva,461.7194282746352
+Segovia,Huesca,349.79732728326326
+Segovia,Illes Balears,614.9404572881823
+Segovia,Jaén,361.29224328871106
+Segovia,La Rioja,173.71526702107775
+Segovia,León,207.81865520281522
+Segovia,Lleida,427.6298124298593
+Segovia,Lugo,348.590058859955
+Segovia,Madrid,77.79601307980043
+Segovia,Melilla,663.3457280732439
+Segovia,Murcia,425.6801352504435
+Segovia,Málaga,492.97430022591755
+Segovia,Navarra,253.4310997995212
+Segovia,Ourense,327.5187516005282
+Segovia,Palencia,130.98889129221132
+Segovia,Pontevedra,398.2125304644414
+Segovia,Salamanca,167.2043345364352
+Segovia,Segovia,0.0
+Segovia,Sevilla,445.6010900178742
+Segovia,Soria,137.40457607722516
+Segovia,Tarragona,419.42145913178746
+Segovia,Teruel,273.2747674473561
+Segovia,Toledo,145.97326973583534
+Segovia,Valencia/València,364.5459393932769
+Segovia,Valladolid,82.78509207073579
+Segovia,Vizcaya,252.0631908284313
+Segovia,Zamora,162.9381616771646
+Segovia,Zaragoza,234.11804191620388
+Segovia,Álava,207.7444093196149
+Segovia,Ávila,101.23882307100145
+Sevilla,A Coruña,677.4531711851439
+Sevilla,Albacete,372.4483067782096
+Sevilla,Alicante/Alacant,480.54667825369813
+Sevilla,Almería,294.60244220700235
+Sevilla,Asturias,661.9911937970224
+Sevilla,Badajoz,145.93075248650922
+Sevilla,Barcelona,817.2763577039776
+Sevilla,Burgos,568.1753529104581
+Sevilla,Cantabria,669.2432753278945
+Sevilla,Castellón/Castelló,567.4943621013706
+Sevilla,Ceuta,172.9941661290282
+Sevilla,Ciudad Real,239.82840701530304
+Sevilla,Cuenca,414.2247461271895
+Sevilla,Cáceres,271.33079460938006
+Sevilla,Cádiz,90.29588291075893
+Sevilla,Córdoba,104.209022643614
+Sevilla,Girona,895.6615274251673
+Sevilla,Granada,206.35446665735765
+Sevilla,Guadalajara,460.12059749602156
+Sevilla,Guipúzcoa,705.7141627710696
+Sevilla,Huelva,96.46647619886828
+Sevilla,Huesca,718.414085168687
+Sevilla,Illes Balears,792.0622813020316
+Sevilla,Jaén,209.3934413174892
+Sevilla,La Rioja,609.5751823887509
+Sevilla,León,569.68973355309
+Sevilla,Lleida,762.2527408396091
+Sevilla,Lugo,644.44009986273
+Sevilla,Madrid,390.7424524584402
+Sevilla,Melilla,343.29856975470216
+Sevilla,Murcia,393.26778003907265
+Sevilla,Málaga,117.91436259318276
+Sevilla,Navarra,679.3762370281212
+Sevilla,Ourense,562.6729707478379
+Sevilla,Palencia,554.6794975388946
+Sevilla,Pontevedra,603.0846408746827
+Sevilla,Salamanca,377.5069732754539
+Sevilla,Segovia,445.6010900178742
+Sevilla,Sevilla,0.0
+Sevilla,Soria,548.4309373527035
+Sevilla,Tarragona,711.8591554029664
+Sevilla,Teruel,556.8800333871148
+Sevilla,Toledo,304.5315359488623
+Sevilla,Valencia/València,498.52828900800006
+Sevilla,Valladolid,478.1478148958339
+Sevilla,Vizcaya,697.3401830831084
+Sevilla,Zamora,480.7718436583463
+Sevilla,Zaragoza,599.3724672486036
+Sevilla,Álava,649.8901813913508
+Sevilla,Ávila,363.97317287156073
+Soria,A Coruña,514.8212107008474
+Soria,Albacete,314.21105396656515
+Soria,Alicante/Alacant,390.6700392271506
+Soria,Almería,503.3115972601441
+Soria,Asturias,339.392834391931
+Soria,Badajoz,454.0892466510325
+Soria,Barcelona,377.8353979101097
+Soria,Burgos,109.7246540716967
+Soria,Cantabria,212.699698008347
+Soria,Castellón/Castelló,257.8321851681986
+Soria,Ceuta,687.4047286241243
+Soria,Ciudad Real,324.3873109667565
+Soria,Cuenca,195.00347545547393
+Soria,Cáceres,363.97402645581116
+Soria,Cádiz,628.3706162725474
+Soria,Córdoba,459.289439823486
+Soria,Girona,440.3881822582779
+Soria,Granada,505.4942006384809
+Soria,Guadalajara,96.51965550384563
+Soria,Guipúzcoa,166.22679964672977
+Soria,Huelva,579.5854346933235
+Soria,Huesca,212.97100547763787
+Soria,Illes Balears,512.8286311379519
+Soria,Jaén,418.9214054927409
+Soria,La Rioja,74.78063489299232
+Soria,León,286.5144436122829
+Soria,Lleida,294.10464070124834
+Soria,Lugo,432.5994477530798
+Soria,Madrid,159.5409721725658
+Soria,Melilla,710.5066402966476
+Soria,Murcia,422.1979133816216
+Soria,Málaga,573.502541125443
+Soria,Navarra,131.00503426007083
+Soria,Ourense,435.5827720219704
+Soria,Palencia,181.5963022310127
+Soria,Pontevedra,506.12240393069214
+Soria,Salamanca,303.7604042262748
+Soria,Segovia,137.40457607722516
+Soria,Sevilla,548.4309373527035
+Soria,Soria,0.0
+Soria,Tarragona,296.68546265355417
+Soria,Teruel,177.23763777966704
+Soria,Toledo,246.23425208457797
+Soria,Valencia/València,313.2887917715802
+Soria,Valladolid,191.51437398215757
+Soria,Vizcaya,179.2748090596513
+Soria,Zamora,277.354621399122
+Soria,Zaragoza,104.16153551780464
+Soria,Álava,122.29236867569546
+Soria,Ávila,236.6801179808259
+Tarragona,A Coruña,808.3802550649634
+Tarragona,Albacete,352.47872146219356
+Tarragona,Alicante/Alacant,315.46903631393104
+Tarragona,Almería,533.4785655321315
+Tarragona,Asturias,621.3449945592388
+Tarragona,Badajoz,667.239137282518
+Tarragona,Barcelona,105.41753302841973
+Tarragona,Burgos,398.17547548677646
+Tarragona,Cantabria,467.9724085216891
+Tarragona,Castellón/Castelló,150.33080798075778
+Tarragona,Ceuta,801.596144028207
+Tarragona,Ciudad Real,474.7478370147064
+Tarragona,Cuenca,302.6645866979338
+Tarragona,Cáceres,615.2311147623948
+Tarragona,Cádiz,769.9015105121601
+Tarragona,Córdoba,608.1838506341227
+Tarragona,Girona,183.97005503808035
+Tarragona,Granada,582.2086855888713
+Tarragona,Guadalajara,311.3444027593942
+Tarragona,Guipúzcoa,340.60753608638925
+Tarragona,Huelva,773.7909799759559
+Tarragona,Huesca,138.7148480122711
+Tarragona,Illes Balears,238.12633790399298
+Tarragona,Jaén,519.5218187803519
+Tarragona,La Rioja,325.3883684588538
+Tarragona,León,580.6928176329028
+Tarragona,Lleida,80.49377760183505
+Tarragona,Lugo,725.0715390542616
+Tarragona,Madrid,398.5682508509249
+Tarragona,Melilla,736.5172943505736
+Tarragona,Murcia,403.8673324838495
+Tarragona,Málaga,687.5579292006015
+Tarragona,Navarra,281.78727912773627
+Tarragona,Ourense,732.2682329898743
+Tarragona,Palencia,475.02512964001113
+Tarragona,Pontevedra,802.7805860276966
+Tarragona,Salamanca,583.2936049059277
+Tarragona,Segovia,419.42145913178746
+Tarragona,Sevilla,711.8591554029664
+Tarragona,Soria,296.68546265355417
+Tarragona,Tarragona,0.00013425878593145295
+Tarragona,Teruel,162.43879353851688
+Tarragona,Toledo,464.0184591375125
+Tarragona,Valencia/València,244.61739369161592
+Tarragona,Valladolid,486.46413679161225
+Tarragona,Vizcaya,389.91134744647565
+Tarragona,Zamora,572.8170061959933
+Tarragona,Zaragoza,192.79963022761655
+Tarragona,Álava,350.77328399223904
+Tarragona,Ávila,503.9539768660245
+Teruel,A Coruña,686.0350676546361
+Teruel,Albacete,219.5628554953237
+Teruel,Alicante/Alacant,241.35857955556168
+Teruel,Almería,416.10369662747866
+Teruel,Asturias,516.4682331013447
+Teruel,Badajoz,505.2635028758062
+Teruel,Barcelona,265.60838225825864
+Teruel,Burgos,286.93198441216026
+Teruel,Cantabria,384.3975548022655
+Teruel,Castellón/Castelló,81.20646095644467
+Teruel,Ceuta,660.3809288065418
+Teruel,Ciudad Real,317.4865204393312
+Teruel,Cuenca,143.11664475527547
+Teruel,Cáceres,454.32594734684835
+Teruel,Cádiz,620.6315071937305
+Teruel,Córdoba,454.5365202531824
+Teruel,Girona,342.11108286357506
+Teruel,Granada,448.3874226577122
+Teruel,Guadalajara,156.75012605397458
+Teruel,Guipúzcoa,294.4567805801592
+Teruel,Huelva,614.242338031921
+Teruel,Huesca,177.62006319602
+Teruel,Illes Balears,342.5140117256312
+Teruel,Jaén,375.6597216424288
+Teruel,La Rioja,235.29184692561694
+Teruel,León,458.8522450267597
+Teruel,Lleida,205.43851658833347
+Teruel,Lugo,605.3939626818359
+Teruel,Madrid,240.25063361711082
+Teruel,Melilla,627.0083727492404
+Teruel,Murcia,302.647539827789
+Teruel,Málaga,544.4223251670088
+Teruel,Navarra,235.3146546579164
+Teruel,Ourense,598.1044767891782
+Teruel,Palencia,356.1594503775997
+Teruel,Pontevedra,669.0963494227722
+Teruel,Salamanca,430.20048227420494
+Teruel,Segovia,273.2747674473561
+Teruel,Sevilla,556.8800333871148
+Teruel,Soria,177.23763777966704
+Teruel,Tarragona,162.43879353851688
+Teruel,Teruel,0.0
+Teruel,Toledo,301.79428367463726
+Teruel,Valencia/València,157.56315684115728
+Teruel,Valladolid,349.0221102668099
+Teruel,Vizcaya,329.6394105942647
+Teruel,Zamora,434.28631794407926
+Teruel,Zaragoza,103.25050805019643
+Teruel,Álava,276.3943818410314
+Teruel,Ávila,348.1327518377799
+Toledo,A Coruña,502.6098343413379
+Toledo,Albacete,230.79494078552918
+Toledo,Alicante/Alacant,361.6484869147325
+Toledo,Almería,344.6654234955027
+Toledo,Asturias,410.80341412462906
+Toledo,Badajoz,211.76522280238882
+Toledo,Barcelona,565.4074618416912
+Toledo,Burgos,267.6499440733356
+Toledo,Cantabria,376.49375472527186
+Toledo,Castellón/Castelló,346.1029232259045
+Toledo,Ceuta,454.9157220295224
+Toledo,Ciudad Real,116.27149508498904
+Toledo,Cuenca,173.52416042488835
+Toledo,Cáceres,156.64362138354136
+Toledo,Cádiz,388.20587360893245
+Toledo,Córdoba,224.42800170406895
+Toledo,Girona,639.6033070402435
+Toledo,Granada,310.36286151636506
+Toledo,Guadalajara,166.75031271495604
+Toledo,Guipúzcoa,401.18642444094985
+Toledo,Huelva,334.1146445100828
+Toledo,Huesca,435.0661256236332
+Toledo,Illes Balears,614.7082466339069
+Toledo,Jaén,223.93740355949274
+Toledo,La Rioja,305.0644628728677
+Toledo,León,320.2077661855937
+Toledo,Lleida,495.5289548381602
+Toledo,Lugo,440.34816681171924
+Toledo,Madrid,86.84729134333953
+Toledo,Melilla,524.5971657062921
+Toledo,Murcia,330.53872291554245
+Toledo,Málaga,347.0317734740248
+Toledo,Navarra,376.447198151104
+Toledo,Ourense,390.3132262697303
+Toledo,Palencia,270.0085238252275
+Toledo,Pontevedra,454.65910394259396
+Toledo,Salamanca,175.89236607296766
+Toledo,Segovia,145.97326973583534
+Toledo,Sevilla,304.5315359488623
+Toledo,Soria,246.23425208457797
+Toledo,Tarragona,464.0184591375125
+Toledo,Teruel,301.79428367463726
+Toledo,Toledo,0.0
+Toledo,Valencia/València,325.3573299779649
+Toledo,Valladolid,201.15584247529657
+Toledo,Vizcaya,394.48803375520447
+Toledo,Zamora,244.71522381415687
+Toledo,Zaragoza,312.2933080050139
+Toledo,Álava,345.6465763586324
+Toledo,Ávila,102.30914641426418
+Valencia/València,A Coruña,788.3750665143486
+Valencia/València,Albacete,126.2782866965299
+Valencia/València,Alicante/Alacant,83.90196724212664
+Valencia/València,Almería,289.1623039657808
+Valencia/València,Asturias,640.2107764067707
+Valencia/València,Badajoz,489.61274521376356
+Valencia/València,Barcelona,343.4912830440246
+Valencia/València,Burgos,417.5099806117967
+Valencia/València,Cantabria,525.9884894550094
+Valencia/València,Castellón/Castelló,99.64120496059232
+Valencia/València,Ceuta,565.642767354965
+Valencia/València,Ciudad Real,281.7652323720272
+Valencia/València,Cuenca,160.87439875793535
+Valencia/València,Cáceres,479.44503548368704
+Valencia/València,Cádiz,543.8394485204632
+Valencia/València,Córdoba,395.0853872013878
+Valencia/València,Girona,421.33990634923924
+Valencia/València,Granada,343.575341920282
+Valencia/València,Guadalajara,250.60451548102807
+Valencia/València,Guipúzcoa,449.9652953320301
+Valencia/València,Huelva,574.422652137183
+Valencia/València,Huesca,321.9221839842757
+Valencia/València,Illes Balears,300.00704185641354
+Valencia/València,Jaén,292.75827894094334
+Valencia/València,La Rioja,381.55385062191624
+Valencia/València,León,569.5477991382039
+Valencia/València,Lleida,317.07894671746385
+Valencia/València,Lugo,712.8691411975814
+Valencia/València,Madrid,302.9578741102647
+Valencia/València,Melilla,492.524711131926
+Valencia/València,Murcia,159.76311828023844
+Valencia/València,Málaga,454.9885033765433
+Valencia/València,Navarra,391.9695090680324
+Valencia/València,Ourense,687.8921916921284
+Valencia/València,Palencia,475.4888390856392
+Valencia/València,Pontevedra,757.3598443935183
+Valencia/València,Salamanca,490.64093827793437
+Valencia/València,Segovia,364.5459393932769
+Valencia/València,Sevilla,498.52828900800006
+Valencia/València,Soria,313.2887917715802
+Valencia/València,Tarragona,244.61739369161592
+Valencia/València,Teruel,157.56315684115728
+Valencia/València,Toledo,325.3573299779649
+Valencia/València,Valencia/València,9.493529796600342e-05
+Valencia/València,Valladolid,447.1982336819643
+Valencia/València,Vizcaya,481.452841247019
+Valencia/València,Zamora,524.8693298639846
+Valencia/València,Zaragoza,259.8786838677517
+Valencia/València,Álava,426.07061126933075
+Valencia/València,Ávila,406.563167978464
+Valladolid,A Coruña,341.7750290822735
+Valladolid,Albacete,394.4586471633058
+Valladolid,Alicante/Alacant,508.48211064048735
+Valladolid,Almería,541.6302082727823
+Valladolid,Asturias,211.94240587971098
+Valladolid,Badajoz,349.302071617737
+Valladolid,Barcelona,569.2974825843083
+Valladolid,Burgos,121.24389598711814
+Valladolid,Cantabria,194.04228360245273
+Valladolid,Castellón/Castelló,422.3903309777911
+Valladolid,Ceuta,642.1843221039052
+Valladolid,Ciudad Real,316.7660279432135
+Valladolid,Cuenca,290.38468528571923
+Valladolid,Cáceres,228.7052715344565
+Valladolid,Cádiz,567.3411558168816
+Valladolid,Córdoba,416.16708693628965
+Valladolid,Girona,630.4686703343133
+Valladolid,Granada,511.5159985516083
+Valladolid,Guadalajara,199.7230175705978
+Valladolid,Guipúzcoa,273.8651516894619
+Valladolid,Huelva,477.9273106621943
+Valladolid,Huesca,400.7861689403593
+Valladolid,Illes Balears,691.5355244621326
+Valladolid,Jaén,424.75008043431677
+Valladolid,La Rioja,197.98629357039013
+Valladolid,León,126.4419267573378
+Valladolid,Lleida,485.0322232817826
+Valladolid,Lugo,265.8084759199056
+Valladolid,Madrid,155.05759728017512
+Valladolid,Melilla,725.7507105975232
+Valladolid,Murcia,505.05521996827105
+Valladolid,Málaga,540.9437197518122
+Valladolid,Navarra,279.9277965156687
+Valladolid,Ourense,249.09097824440934
+Valladolid,Palencia,77.15849722461773
+Valladolid,Pontevedra,320.08838650601024
+Valladolid,Salamanca,134.21258716545242
+Valladolid,Segovia,82.78509207073579
+Valladolid,Sevilla,478.1478148958339
+Valladolid,Soria,191.51437398215757
+Valladolid,Tarragona,486.46413679161225
+Valladolid,Teruel,349.0221102668099
+Valladolid,Toledo,201.15584247529657
+Valladolid,Valencia/València,447.1982336819643
+Valladolid,Valladolid,0.0
+Valladolid,Vizcaya,244.5144126988692
+Valladolid,Zamora,86.38694090254288
+Valladolid,Zaragoza,295.2369888529576
+Valladolid,Álava,215.86971804700212
+Valladolid,Ávila,114.37672741057781
+Vizcaya,A Coruña,459.1201763107837
+Vizcaya,Albacete,493.40742026327234
+Vizcaya,Alicante/Alacant,562.4545832650456
+Vizcaya,Almería,681.7286469127354
+Vizcaya,Asturias,256.05412018870106
+Vizcaya,Badajoz,582.7003692748992
+Vizcaya,Barcelona,434.51105682097733
+Vizcaya,Burgos,130.7257585814844
+Vizcaya,Cantabria,91.98651114926554
+Vizcaya,Castellón/Castelló,408.8962965544252
+Vizcaya,Ceuta,848.5352834435166
+Vizcaya,Ciudad Real,490.836861389887
+Vizcaya,Cuenca,374.278004271469
+Vizcaya,Cáceres,469.89584660972616
+Vizcaya,Cádiz,782.5295787279397
+Vizcaya,Córdoba,617.9537052979931
+Vizcaya,Girona,472.9563565284508
+Vizcaya,Granada,679.223461236134
+Vizcaya,Guadalajara,273.02316592697906
+Vizcaya,Guipúzcoa,53.31493107736286
+Vizcaya,Huelva,712.0245734941419
+Vizcaya,Huesca,258.61649820983223
+Vizcaya,Illes Balears,626.8910014650954
+Vizcaya,Jaén,591.3513906050342
+Vizcaya,La Rioja,104.53225565551553
+Vizcaya,León,256.6527828058763
+Vizcaya,Lleida,349.1420104094335
+Vizcaya,Lugo,376.47202506357945
+Vizcaya,Madrid,311.85693616571956
+Vizcaya,Melilla,887.318647840555
+Vizcaya,Murcia,600.5741717397782
+Vizcaya,Málaga,737.8132489392266
+Vizcaya,Navarra,108.12407762870343
+Vizcaya,Ourense,418.36185508392026
+Vizcaya,Palencia,177.06752260621965
+Vizcaya,Pontevedra,480.509263691817
+Vizcaya,Salamanca,378.5555173390394
+Vizcaya,Segovia,252.0631908284313
+Vizcaya,Sevilla,697.3401830831084
+Vizcaya,Soria,179.2748090596513
+Vizcaya,Tarragona,389.91134744647565
+Vizcaya,Teruel,329.6394105942647
+Vizcaya,Toledo,394.48803375520447
+Vizcaya,Valencia/València,481.452841247019
+Vizcaya,Valladolid,244.5144126988692
+Vizcaya,Vizcaya,0.0
+Vizcaya,Zamora,303.05585412583565
+Vizcaya,Zaragoza,228.19934016400592
+Vizcaya,Álava,57.09473549882058
+Vizcaya,Ávila,344.3816051363841
+Zamora,A Coruña,265.0198030083705
+Zamora,Albacete,460.52761907209856
+Zamora,Alicante/Alacant,581.2230316401399
+Zamora,Almería,588.9122709303937
+Zamora,Asturias,181.26800927228325
+Zamora,Badajoz,340.3581763922474
+Zamora,Barcelona,654.7889416474045
+Zamora,Burgos,195.54788468308382
+Zamora,Cantabria,232.250472174252
+Zamora,Castellón/Castelló,506.1537703327574
+Zamora,Ceuta,651.3282114679544
+Zamora,Ciudad Real,359.3495887434705
+Zamora,Cuenca,365.2113987999465
+Zamora,Cáceres,212.03013640700377
+Zamora,Cádiz,571.0639059235845
+Zamora,Córdoba,435.7296003307259
+Zamora,Girona,714.7127780980505
+Zamora,Granada,547.5843879851308
+Zamora,Guadalajara,282.18822187085226
+Zamora,Guipúzcoa,340.87630054465814
+Zamora,Huelva,463.11001440563757
+Zamora,Huesca,484.4288542765708
+Zamora,Illes Balears,776.6956011368261
+Zamora,Jaén,464.7813891791123
+Zamora,La Rioja,276.2902100638942
+Zamora,León,89.17747385424111
+Zamora,Lleida,570.0057063819428
+Zamora,Lugo,196.44173538120575
+Zamora,Madrid,224.0044229393228
+Zamora,Melilla,759.489679530845
+Zamora,Murcia,568.149769108665
+Zamora,Málaga,559.3130473517688
+Zamora,Navarra,356.22156007887116
+Zamora,Ourense,164.5836419440619
+Zamora,Palencia,126.5981294032376
+Zamora,Pontevedra,235.344672602038
+Zamora,Salamanca,104.0015455118768
+Zamora,Segovia,162.9381616771646
+Zamora,Sevilla,480.7718436583463
+Zamora,Soria,277.354621399122
+Zamora,Tarragona,572.8170061959933
+Zamora,Teruel,434.28631794407926
+Zamora,Toledo,244.71522381415687
+Zamora,Valencia/València,524.8693298639846
+Zamora,Valladolid,86.38694090254288
+Zamora,Vizcaya,303.05585412583565
+Zamora,Zamora,0.0
+Zamora,Zaragoza,381.3200705674726
+Zamora,Álava,285.92935934538895
+Zamora,Ávila,142.78812763008895
+Zaragoza,A Coruña,616.4753884810918
+Zaragoza,Albacete,302.15728322966766
+Zaragoza,Alicante/Alacant,343.2373174033807
+Zaragoza,Almería,500.35808939816263
+Zaragoza,Asturias,434.0428419112304
+Zaragoza,Badajoz,524.0042675634573
+Zaragoza,Barcelona,275.1323220892038
+Zaragoza,Burgos,206.87543891695336
+Zaragoza,Cantabria,290.2365842037063
+Zaragoza,Castellón/Castelló,180.8219694892294
+Zaragoza,Ceuta,721.3971749268741
+Zaragoza,Ciudad Real,362.3009361928298
+Zaragoza,Cuenca,197.69520042405136
+Zaragoza,Cáceres,449.161096721044
+Zaragoza,Cádiz,672.0117183227231
+Zaragoza,Córdoba,502.09472363628095
+Zaragoza,Girona,340.8022866732854
+Zaragoza,Granada,520.5599625875245
+Zaragoza,Guadalajara,145.61766598916827
+Zaragoza,Guipúzcoa,191.26404912413582
+Zaragoza,Huelva,643.5617251332612
+Zaragoza,Huesca,122.83527382327583
+Zaragoza,Illes Balears,415.07412529584724
+Zaragoza,Jaén,440.1422723258944
+Zaragoza,La Rioja,140.93643321360327
+Zaragoza,León,388.4037884374915
+Zaragoza,Lleida,193.608287062428
+Zaragoza,Lugo,533.5391627013022
+Zaragoza,Madrid,232.20888442867638
+Zaragoza,Melilla,711.8331283229193
+Zaragoza,Murcia,397.07190613626625
+Zaragoza,Málaga,605.2066118047018
+Zaragoza,Navarra,132.17318960080786
+Zaragoza,Ourense,539.6003926837201
+Zaragoza,Palencia,282.8008218782055
+Zaragoza,Pontevedra,610.0362836167837
+Zaragoza,Salamanca,401.1093326633351
+Zaragoza,Segovia,234.11804191620388
+Zaragoza,Sevilla,599.3724672486036
+Zaragoza,Soria,104.16153551780464
+Zaragoza,Tarragona,192.79963022761655
+Zaragoza,Teruel,103.25050805019643
+Zaragoza,Toledo,312.2933080050139
+Zaragoza,Valencia/València,259.8786838677517
+Zaragoza,Valladolid,295.2369888529576
+Zaragoza,Vizcaya,228.19934016400592
+Zaragoza,Zamora,381.3200705674726
+Zaragoza,Zaragoza,0.0
+Zaragoza,Álava,177.21288026243863
+Zaragoza,Ávila,327.4100489934826
+Álava,A Coruña,473.0589606472484
+Álava,Albacete,436.3383170766953
+Álava,Alicante/Alacant,506.4855548112239
+Álava,Almería,625.2078439412031
+Álava,Asturias,275.45250789076795
+Álava,Badajoz,540.6279293316464
+Álava,Barcelona,406.1781162022078
+Álava,Burgos,94.82530805167131
+Álava,Cantabria,117.20078465390728
+Álava,Castellón/Castelló,356.62305404392043
+Álava,Ceuta,797.6970621776808
+Álava,Ciudad Real,437.8081657778431
+Álava,Cuenca,317.2781028774194
+Álava,Cáceres,433.2399445439391
+Álava,Cádiz,733.7119387255044
+Álava,Córdoba,567.4585230437087
+Álava,Girona,452.40758884879483
+Álava,Granada,624.3213842798846
+Álava,Guadalajara,216.7993629883514
+Álava,Guipúzcoa,58.937384403044675
+Álava,Huelva,669.4556674087263
+Álava,Huesca,227.66145184304463
+Álava,Illes Balears,584.9169150480524
+Álava,Jaén,536.7823833559063
+Álava,La Rioja,47.51173739741611
+Álava,León,256.05739668293023
+Álava,Lleida,319.28859672744727
+Álava,Lugo,389.1464627001912
+Álava,Madrid,261.03017359754443
+Álava,Melilla,831.4416184930258
+Álava,Murcia,543.5120634010259
+Álava,Málaga,685.8705166559402
+Álava,Navarra,77.49379401672793
+Álava,Ourense,418.5787743031128
+Álava,Palencia,160.70713866292962
+Álava,Pontevedra,484.5782842854828
+Álava,Salamanca,349.1199393883089
+Álava,Segovia,207.7444093196149
+Álava,Sevilla,649.8901813913508
+Álava,Soria,122.29236867569546
+Álava,Tarragona,350.77328399223904
+Álava,Teruel,276.3943818410314
+Álava,Toledo,345.6465763586324
+Álava,Valencia/València,426.07061126933075
+Álava,Valladolid,215.86971804700212
+Álava,Vizcaya,57.09473549882058
+Álava,Zamora,285.92935934538895
+Álava,Zaragoza,177.21288026243863
+Álava,Álava,0.0
+Álava,Ávila,305.02738162273954
+Ávila,A Coruña,401.0531930401987
+Ávila,Albacete,326.35771831267454
+Ávila,Alicante/Alacant,453.16351205095066
+Ávila,Almería,446.12414393338645
+Ávila,Asturias,314.34601514097835
+Ávila,Badajoz,238.98202631824802
+Ávila,Barcelona,598.5082522885034
+Ávila,Burgos,213.84330921353964
+Ávila,Cantabria,306.01693066697214
+Ávila,Castellón/Castelló,407.86376694667877
+Ávila,Ceuta,527.9640947280358
+Ávila,Ciudad Real,216.60125919741927
+Ávila,Cuenca,246.35568169540358
+Ávila,Cáceres,129.34733255630096
+Ávila,Cádiz,453.0085764985181
+Ávila,Córdoba,303.2502021706731
+Ávila,Girona,667.5422606872906
+Ávila,Granada,406.6347989978241
+Ávila,Guadalajara,192.74919365448514
+Ávila,Guipúzcoa,363.8133345619041
+Ávila,Huelva,368.34878433337343
+Ávila,Huesca,446.7452090030214
+Ávila,Illes Balears,681.4200276314981
+Ávila,Jaén,322.5842234162392
+Ávila,La Rioja,274.0660980476307
+Ávila,León,222.01998261070838
+Ávila,Lleida,520.4158634791828
+Ávila,Lugo,338.0481554065099
+Ávila,Madrid,109.01946583996076
+Ávila,Melilla,619.7838331000082
+Ávila,Murcia,430.369707670748
+Ávila,Málaga,428.0832826192985
+Ávila,Navarra,354.50385650071786
+Ávila,Ourense,290.31067266763
+Ávila,Palencia,190.71039970544544
+Ávila,Pontevedra,356.57076931642587
+Ávila,Salamanca,84.57836839531574
+Ávila,Segovia,101.23882307100145
+Ávila,Sevilla,363.97317287156073
+Ávila,Soria,236.6801179808259
+Ávila,Tarragona,503.9539768660245
+Ávila,Teruel,348.1327518377799
+Ávila,Toledo,102.30914641426418
+Ávila,Valencia/València,406.563167978464
+Ávila,Valladolid,114.37672741057781
+Ávila,Vizcaya,344.3816051363841
+Ávila,Zamora,142.78812763008895
+Ávila,Zaragoza,327.4100489934826
+Ávila,Álava,305.02738162273954
+Ávila,Ávila,0.0
